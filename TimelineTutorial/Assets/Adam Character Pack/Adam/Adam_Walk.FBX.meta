@@ -1,832 +1,2480 @@
 fileFormatVersion: 2
 guid: abff1e609cb74354792d4d21e84c0eaa
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Adam_BloodyHeadBracket
-    100002: Adam_monitor_back
-    100004: Adam_monitor_front
-    100006: Adam_Reference
-    100008: Adam_RigCables_Front_03
-    100010: Adam_RigCables_Front_05
-    100012: Adam_RigCables_Front_06
-    100014: Adam_RigCables_Front_08
-    100016: Adam_RigNeckRubber_Bones_27
-    100018: //RootNode
-    100020: Bip01
-    100022: Bip01 Head
-    100024: Bip01 L Calf
-    100026: Bip01 L Clavicle
-    100028: Bip01 L Finger0
-    100030: Bip01 L Finger01
-    100032: Bip01 L Finger02
-    100034: Bip01 L Finger1
-    100036: Bip01 L Finger11
-    100038: Bip01 L Finger12
-    100040: Bip01 L Finger2
-    100042: Bip01 L Finger21
-    100044: Bip01 L Finger22
-    100046: Bip01 L Finger3
-    100048: Bip01 L Finger31
-    100050: Bip01 L Finger32
-    100052: Bip01 L Finger4
-    100054: Bip01 L Finger41
-    100056: Bip01 L Finger42
-    100058: Bip01 L Foot
-    100060: Bip01 L Forearm
-    100062: Bip01 L ForeTwist
-    100064: Bip01 L ForeTwist1
-    100066: Bip01 L ForeTwist2
-    100068: Bip01 L Hand
-    100070: Bip01 L Thigh
-    100072: Bip01 L Toe0
-    100074: Bip01 L Toe1
-    100076: Bip01 L Toe2
-    100078: Bip01 L Toe3
-    100080: Bip01 L Toe4
-    100082: Bip01 L UpperArm
-    100084: Bip01 Neck
-    100086: Bip01 Neck1
-    100088: Bip01 Neck2
-    100090: Bip01 Pelvis
-    100092: Bip01 R Calf
-    100094: Bip01 R Clavicle
-    100096: Bip01 R Finger0
-    100098: Bip01 R Finger01
-    100100: Bip01 R Finger02
-    100102: Bip01 R Finger1
-    100104: Bip01 R Finger11
-    100106: Bip01 R Finger12
-    100108: Bip01 R Finger2
-    100110: Bip01 R Finger21
-    100112: Bip01 R Finger22
-    100114: Bip01 R Finger3
-    100116: Bip01 R Finger31
-    100118: Bip01 R Finger32
-    100120: Bip01 R Finger4
-    100122: Bip01 R Finger41
-    100124: Bip01 R Finger42
-    100126: Bip01 R Foot
-    100128: Bip01 R Forearm
-    100130: Bip01 R ForeTwist
-    100132: Bip01 R ForeTwist1
-    100134: Bip01 R ForeTwist2
-    100136: Bip01 R Hand
-    100138: Bip01 R Thigh
-    100140: Bip01 R Toe0
-    100142: Bip01 R Toe1
-    100144: Bip01 R Toe2
-    100146: Bip01 R Toe3
-    100148: Bip01 R Toe4
-    100150: Bip01 R UpperArm
-    100152: Bip01 Spine
-    100154: Bip01 Spine1
-    100156: Bone005
-    100158: Bone006
-    100160: Bone007
-    100162: Bone011
-    100164: Bone011(mirrored)
-    100166: cables
-    100168: Eye_L_Blend_00
-    100170: Eye_L_Blend_01
-    100172: Eye_L_Blend_02
-    100174: Eye_L_Blend_03
-    100176: Eye_L_Blend_04
-    100178: Eye_L_Blend_05
-    100180: Eye_L_Blend_Null_00
-    100182: Eye_L_Blend_Null_01
-    100184: Eye_L_Blend_Null_02
-    100186: Eye_L_Blend_Null_03
-    100188: Eye_L_Blend_Null_04
-    100190: Eye_L_Blend_Null_05
-    100192: Eye_L_BlendBase
-    100194: Eye_L_BlendRoot
-    100196: Eye_L_BlendScrew_00
-    100198: Eye_L_BlendScrew_01
-    100200: Eye_L_BlendScrew_02
-    100202: Eye_L_BlendScrew_03
-    100204: Eye_L_BlendScrew_04
-    100206: Eye_L_BlendScrew_05
-    100208: Eye_L_EyelidSegment_00
-    100210: Eye_L_EyelidSegment_01
-    100212: Eye_L_EyelidSegment_02
-    100214: Eye_L_EyelidSegment_03
-    100216: Eye_L_EyelidSegment_04
-    100218: Eye_L_EyelidSegment_05
-    100220: Eye_L_EyelidSegment_06
-    100222: Eye_L_EyelidSegment_07
-    100224: Eye_L_EyelidSegment_08
-    100226: Eye_L_EyelidSegment_09
-    100228: Eye_L_EyelidSegment_10
-    100230: Eye_L_EyelidSegment_11
-    100232: Eye_L_EyelidSegment_12
-    100234: Eye_L_EyelidSegment_13
-    100236: Eye_L_EyelidSegment_14
-    100238: Eye_L_EyelidSegment_15
-    100240: Eye_L_EyelidsRig_00
-    100242: Eye_L_EyelidsRig_01
-    100244: Eye_L_EyelidsRig_02
-    100246: Eye_L_EyelidsRig_03
-    100248: Eye_L_EyelidsRig_04
-    100250: Eye_L_EyelidsRig_05
-    100252: Eye_L_EyelidsRig_12
-    100254: Eye_L_EyelidsRig_13
-    100256: Eye_L_EyelidsRig_14
-    100258: Eye_L_EyelidsRig_15
-    100260: Eye_L_EyelidsRig_16
-    100262: Eye_L_EyelidsRig_17
-    100264: Eye_L_Lens
-    100266: Eye_L_LowerEyelid
-    100268: Eye_L_Null
-    100270: Eye_L_Sclera
-    100272: Eye_L_Side1
-    100274: Eye_L_Side2
-    100276: Eye_L_UpperEyelid
-    100278: Eye_R_Blend_00
-    100280: Eye_R_Blend_01
-    100282: Eye_R_Blend_02
-    100284: Eye_R_Blend_03
-    100286: Eye_R_Blend_04
-    100288: Eye_R_Blend_05
-    100290: Eye_R_Blend_Null_00
-    100292: Eye_R_Blend_Null_01
-    100294: Eye_R_Blend_Null_02
-    100296: Eye_R_Blend_Null_03
-    100298: Eye_R_Blend_Null_04
-    100300: Eye_R_Blend_Null_05
-    100302: Eye_R_BlendBase
-    100304: Eye_R_BlendRoot
-    100306: Eye_R_BlendScrew_00
-    100308: Eye_R_BlendScrew_01
-    100310: Eye_R_BlendScrew_02
-    100312: Eye_R_BlendScrew_03
-    100314: Eye_R_BlendScrew_04
-    100316: Eye_R_BlendScrew_05
-    100318: Eye_R_EyelidSegment_00
-    100320: Eye_R_EyelidSegment_01
-    100322: Eye_R_EyelidSegment_02
-    100324: Eye_R_EyelidSegment_03
-    100326: Eye_R_EyelidSegment_04
-    100328: Eye_R_EyelidSegment_05
-    100330: Eye_R_EyelidSegment_06
-    100332: Eye_R_EyelidSegment_07
-    100334: Eye_R_EyelidSegment_08
-    100336: Eye_R_EyelidSegment_09
-    100338: Eye_R_EyelidSegment_10
-    100340: Eye_R_EyelidSegment_11
-    100342: Eye_R_EyelidSegment_12
-    100344: Eye_R_EyelidSegment_13
-    100346: Eye_R_EyelidSegment_14
-    100348: Eye_R_EyelidSegment_15
-    100350: Eye_R_EyelidsRig_00
-    100352: Eye_R_EyelidsRig_01
-    100354: Eye_R_EyelidsRig_02
-    100356: Eye_R_EyelidsRig_03
-    100358: Eye_R_EyelidsRig_04
-    100360: Eye_R_EyelidsRig_05
-    100362: Eye_R_EyelidsRig_12
-    100364: Eye_R_EyelidsRig_13
-    100366: Eye_R_EyelidsRig_14
-    100368: Eye_R_EyelidsRig_15
-    100370: Eye_R_EyelidsRig_16
-    100372: Eye_R_EyelidsRig_17
-    100374: Eye_R_Lens
-    100376: Eye_R_LowerEyelid
-    100378: Eye_R_Null
-    100380: Eye_R_Sclera
-    100382: Eye_R_Side1
-    100384: Eye_R_Side2
-    100386: Eye_R_UpperEyelid
-    100388: mesh_Adam_arms
-    100390: mesh_Adam_head
-    100392: mesh_Adam_legs
-    100394: mesh_Adam_LSleeve
-    100396: mesh_Adam_mask
-    100398: mesh_Adam_RSleeve
-    100400: mesh_Adam_spine
-    100402: mesh_Adam_torso
-    100404: Rig_BellyStretchyL_00
-    100406: Rig_BellyStretchyL_01
-    100408: Rig_BellyStretchyL_012
-    100410: Rig_BellyStretchyL_013
-    100412: Rig_BellyStretchyL_014
-    100414: Rig_BellyStretchyL_015
-    100416: Rig_BellyStretchyL_016
-    100418: Rig_BellyStretchyL_017
-    100420: Rig_BellyStretchyL_018
-    100422: Rig_BellyStretchyL_019
-    100424: Rig_BellyStretchyL_02
-    100426: Rig_BellyStretchyL_020
-    100428: Rig_BellyStretchyL_021
-    100430: Rig_BellyStretchyL_022
-    100432: Rig_BellyStretchyL_023
-    100434: Rig_BellyStretchyL_024
-    100436: Rig_BellyStretchyL_025
-    100438: Rig_BellyStretchyL_026
-    100440: Rig_BellyStretchyL_027
-    100442: Rig_BellyStretchyL_028
-    100444: Rig_BellyStretchyL_029
-    100446: Rig_BellyStretchyL_03
-    100448: Rig_BellyStretchyL_030
-    100450: Rig_BellyStretchyL_031
-    100452: Rig_BellyStretchyL_04
-    100454: Rig_BellyStretchyL_05
-    100456: Rig_BellyStretchyL_06
-    100458: Rig_BellyStretchyL_07
-    100460: Rig_BellyStretchyL_08
-    100462: Rig_BellyStretchyL_09
-    100464: Rig_BellyStretchyL_10
-    100466: Rig_BellyStretchyL_11
-    100468: Rig_BellyStretchyR_00
-    100470: Rig_BellyStretchyR_01
-    100472: Rig_BellyStretchyR_02
-    100474: Rig_BellyStretchyR_03
-    100476: Rig_BellyStretchyR_04
-    100478: Rig_BellyStretchyR_05
-    100480: Rig_BellyStretchyR_06
-    100482: Rig_BellyStretchyR_07
-    100484: Rig_BellyStretchyR_08
-    100486: Rig_BellyStretchyR_09
-    100488: Rig_BellyStretchyR_10
-    100490: Rig_BellyStretchyR_11
-    100492: Rig_L Clavicle
-    100494: Rig_L Clavicle_Constraint
-    100496: Rig_L Clavicle_LookAt
-    100498: Rig_L Forearm_01
-    100500: Rig_L Forearm_02
-    100502: Rig_L Shoulder
-    100504: Rig_L UpperArm_Ring
-    100506: Rig_L UpperArm_Ring_Upnode
-    100508: Rig_L UpperArm_Upnode
-    100510: Rig_L_Scapula
-    100512: Rig_L_Scapula_LookAt1
-    100514: Rig_L_Scapula_LookAt2
-    100516: Rig_L_Scapula_LookAtUpnode
-    100518: Rig_L_Scapula_pos
-    100520: Rig_R Clavicle
-    100522: Rig_R Clavicle_Constraint
-    100524: Rig_R Clavicle_LookAt
-    100526: Rig_R Forearm_01
-    100528: Rig_R Forearm_02
-    100530: Rig_R Shoulder
-    100532: Rig_R UpperArm_Ring
-    100534: Rig_R UpperArm_Ring_Upnode
-    100536: Rig_R UpperArm_Upnode
-    100538: Rig_R_Scapula
-    100540: Rig_R_Scapula_LookAt1
-    100542: Rig_R_Scapula_LookAt2
-    100544: Rig_R_Scapula_LookAtUpnode
-    100546: Rig_R_Scapula_pos
-    100548: Rig_Trapezius_L_Base
-    100550: Rig_Trapezius_L_Rail
-    100552: Rig_Trapezius_L_Slider
-    100554: Rig_Trapezius_L_Slider002
-    100556: Rig_Trapezius_R_Base
-    100558: Rig_Trapezius_R_Rail
-    100560: RootMotion
-    400000: Adam_BloodyHeadBracket
-    400002: Adam_monitor_back
-    400004: Adam_monitor_front
-    400006: Adam_Reference
-    400008: Adam_RigCables_Front_03
-    400010: Adam_RigCables_Front_05
-    400012: Adam_RigCables_Front_06
-    400014: Adam_RigCables_Front_08
-    400016: Adam_RigNeckRubber_Bones_27
-    400018: //RootNode
-    400020: Bip01
-    400022: Bip01 Head
-    400024: Bip01 L Calf
-    400026: Bip01 L Clavicle
-    400028: Bip01 L Finger0
-    400030: Bip01 L Finger01
-    400032: Bip01 L Finger02
-    400034: Bip01 L Finger1
-    400036: Bip01 L Finger11
-    400038: Bip01 L Finger12
-    400040: Bip01 L Finger2
-    400042: Bip01 L Finger21
-    400044: Bip01 L Finger22
-    400046: Bip01 L Finger3
-    400048: Bip01 L Finger31
-    400050: Bip01 L Finger32
-    400052: Bip01 L Finger4
-    400054: Bip01 L Finger41
-    400056: Bip01 L Finger42
-    400058: Bip01 L Foot
-    400060: Bip01 L Forearm
-    400062: Bip01 L ForeTwist
-    400064: Bip01 L ForeTwist1
-    400066: Bip01 L ForeTwist2
-    400068: Bip01 L Hand
-    400070: Bip01 L Thigh
-    400072: Bip01 L Toe0
-    400074: Bip01 L Toe1
-    400076: Bip01 L Toe2
-    400078: Bip01 L Toe3
-    400080: Bip01 L Toe4
-    400082: Bip01 L UpperArm
-    400084: Bip01 Neck
-    400086: Bip01 Neck1
-    400088: Bip01 Neck2
-    400090: Bip01 Pelvis
-    400092: Bip01 R Calf
-    400094: Bip01 R Clavicle
-    400096: Bip01 R Finger0
-    400098: Bip01 R Finger01
-    400100: Bip01 R Finger02
-    400102: Bip01 R Finger1
-    400104: Bip01 R Finger11
-    400106: Bip01 R Finger12
-    400108: Bip01 R Finger2
-    400110: Bip01 R Finger21
-    400112: Bip01 R Finger22
-    400114: Bip01 R Finger3
-    400116: Bip01 R Finger31
-    400118: Bip01 R Finger32
-    400120: Bip01 R Finger4
-    400122: Bip01 R Finger41
-    400124: Bip01 R Finger42
-    400126: Bip01 R Foot
-    400128: Bip01 R Forearm
-    400130: Bip01 R ForeTwist
-    400132: Bip01 R ForeTwist1
-    400134: Bip01 R ForeTwist2
-    400136: Bip01 R Hand
-    400138: Bip01 R Thigh
-    400140: Bip01 R Toe0
-    400142: Bip01 R Toe1
-    400144: Bip01 R Toe2
-    400146: Bip01 R Toe3
-    400148: Bip01 R Toe4
-    400150: Bip01 R UpperArm
-    400152: Bip01 Spine
-    400154: Bip01 Spine1
-    400156: Bone005
-    400158: Bone006
-    400160: Bone007
-    400162: Bone011
-    400164: Bone011(mirrored)
-    400166: cables
-    400168: Eye_L_Blend_00
-    400170: Eye_L_Blend_01
-    400172: Eye_L_Blend_02
-    400174: Eye_L_Blend_03
-    400176: Eye_L_Blend_04
-    400178: Eye_L_Blend_05
-    400180: Eye_L_Blend_Null_00
-    400182: Eye_L_Blend_Null_01
-    400184: Eye_L_Blend_Null_02
-    400186: Eye_L_Blend_Null_03
-    400188: Eye_L_Blend_Null_04
-    400190: Eye_L_Blend_Null_05
-    400192: Eye_L_BlendBase
-    400194: Eye_L_BlendRoot
-    400196: Eye_L_BlendScrew_00
-    400198: Eye_L_BlendScrew_01
-    400200: Eye_L_BlendScrew_02
-    400202: Eye_L_BlendScrew_03
-    400204: Eye_L_BlendScrew_04
-    400206: Eye_L_BlendScrew_05
-    400208: Eye_L_EyelidSegment_00
-    400210: Eye_L_EyelidSegment_01
-    400212: Eye_L_EyelidSegment_02
-    400214: Eye_L_EyelidSegment_03
-    400216: Eye_L_EyelidSegment_04
-    400218: Eye_L_EyelidSegment_05
-    400220: Eye_L_EyelidSegment_06
-    400222: Eye_L_EyelidSegment_07
-    400224: Eye_L_EyelidSegment_08
-    400226: Eye_L_EyelidSegment_09
-    400228: Eye_L_EyelidSegment_10
-    400230: Eye_L_EyelidSegment_11
-    400232: Eye_L_EyelidSegment_12
-    400234: Eye_L_EyelidSegment_13
-    400236: Eye_L_EyelidSegment_14
-    400238: Eye_L_EyelidSegment_15
-    400240: Eye_L_EyelidsRig_00
-    400242: Eye_L_EyelidsRig_01
-    400244: Eye_L_EyelidsRig_02
-    400246: Eye_L_EyelidsRig_03
-    400248: Eye_L_EyelidsRig_04
-    400250: Eye_L_EyelidsRig_05
-    400252: Eye_L_EyelidsRig_12
-    400254: Eye_L_EyelidsRig_13
-    400256: Eye_L_EyelidsRig_14
-    400258: Eye_L_EyelidsRig_15
-    400260: Eye_L_EyelidsRig_16
-    400262: Eye_L_EyelidsRig_17
-    400264: Eye_L_Lens
-    400266: Eye_L_LowerEyelid
-    400268: Eye_L_Null
-    400270: Eye_L_Sclera
-    400272: Eye_L_Side1
-    400274: Eye_L_Side2
-    400276: Eye_L_UpperEyelid
-    400278: Eye_R_Blend_00
-    400280: Eye_R_Blend_01
-    400282: Eye_R_Blend_02
-    400284: Eye_R_Blend_03
-    400286: Eye_R_Blend_04
-    400288: Eye_R_Blend_05
-    400290: Eye_R_Blend_Null_00
-    400292: Eye_R_Blend_Null_01
-    400294: Eye_R_Blend_Null_02
-    400296: Eye_R_Blend_Null_03
-    400298: Eye_R_Blend_Null_04
-    400300: Eye_R_Blend_Null_05
-    400302: Eye_R_BlendBase
-    400304: Eye_R_BlendRoot
-    400306: Eye_R_BlendScrew_00
-    400308: Eye_R_BlendScrew_01
-    400310: Eye_R_BlendScrew_02
-    400312: Eye_R_BlendScrew_03
-    400314: Eye_R_BlendScrew_04
-    400316: Eye_R_BlendScrew_05
-    400318: Eye_R_EyelidSegment_00
-    400320: Eye_R_EyelidSegment_01
-    400322: Eye_R_EyelidSegment_02
-    400324: Eye_R_EyelidSegment_03
-    400326: Eye_R_EyelidSegment_04
-    400328: Eye_R_EyelidSegment_05
-    400330: Eye_R_EyelidSegment_06
-    400332: Eye_R_EyelidSegment_07
-    400334: Eye_R_EyelidSegment_08
-    400336: Eye_R_EyelidSegment_09
-    400338: Eye_R_EyelidSegment_10
-    400340: Eye_R_EyelidSegment_11
-    400342: Eye_R_EyelidSegment_12
-    400344: Eye_R_EyelidSegment_13
-    400346: Eye_R_EyelidSegment_14
-    400348: Eye_R_EyelidSegment_15
-    400350: Eye_R_EyelidsRig_00
-    400352: Eye_R_EyelidsRig_01
-    400354: Eye_R_EyelidsRig_02
-    400356: Eye_R_EyelidsRig_03
-    400358: Eye_R_EyelidsRig_04
-    400360: Eye_R_EyelidsRig_05
-    400362: Eye_R_EyelidsRig_12
-    400364: Eye_R_EyelidsRig_13
-    400366: Eye_R_EyelidsRig_14
-    400368: Eye_R_EyelidsRig_15
-    400370: Eye_R_EyelidsRig_16
-    400372: Eye_R_EyelidsRig_17
-    400374: Eye_R_Lens
-    400376: Eye_R_LowerEyelid
-    400378: Eye_R_Null
-    400380: Eye_R_Sclera
-    400382: Eye_R_Side1
-    400384: Eye_R_Side2
-    400386: Eye_R_UpperEyelid
-    400388: mesh_Adam_arms
-    400390: mesh_Adam_head
-    400392: mesh_Adam_legs
-    400394: mesh_Adam_LSleeve
-    400396: mesh_Adam_mask
-    400398: mesh_Adam_RSleeve
-    400400: mesh_Adam_spine
-    400402: mesh_Adam_torso
-    400404: Rig_BellyStretchyL_00
-    400406: Rig_BellyStretchyL_01
-    400408: Rig_BellyStretchyL_012
-    400410: Rig_BellyStretchyL_013
-    400412: Rig_BellyStretchyL_014
-    400414: Rig_BellyStretchyL_015
-    400416: Rig_BellyStretchyL_016
-    400418: Rig_BellyStretchyL_017
-    400420: Rig_BellyStretchyL_018
-    400422: Rig_BellyStretchyL_019
-    400424: Rig_BellyStretchyL_02
-    400426: Rig_BellyStretchyL_020
-    400428: Rig_BellyStretchyL_021
-    400430: Rig_BellyStretchyL_022
-    400432: Rig_BellyStretchyL_023
-    400434: Rig_BellyStretchyL_024
-    400436: Rig_BellyStretchyL_025
-    400438: Rig_BellyStretchyL_026
-    400440: Rig_BellyStretchyL_027
-    400442: Rig_BellyStretchyL_028
-    400444: Rig_BellyStretchyL_029
-    400446: Rig_BellyStretchyL_03
-    400448: Rig_BellyStretchyL_030
-    400450: Rig_BellyStretchyL_031
-    400452: Rig_BellyStretchyL_04
-    400454: Rig_BellyStretchyL_05
-    400456: Rig_BellyStretchyL_06
-    400458: Rig_BellyStretchyL_07
-    400460: Rig_BellyStretchyL_08
-    400462: Rig_BellyStretchyL_09
-    400464: Rig_BellyStretchyL_10
-    400466: Rig_BellyStretchyL_11
-    400468: Rig_BellyStretchyR_00
-    400470: Rig_BellyStretchyR_01
-    400472: Rig_BellyStretchyR_02
-    400474: Rig_BellyStretchyR_03
-    400476: Rig_BellyStretchyR_04
-    400478: Rig_BellyStretchyR_05
-    400480: Rig_BellyStretchyR_06
-    400482: Rig_BellyStretchyR_07
-    400484: Rig_BellyStretchyR_08
-    400486: Rig_BellyStretchyR_09
-    400488: Rig_BellyStretchyR_10
-    400490: Rig_BellyStretchyR_11
-    400492: Rig_L Clavicle
-    400494: Rig_L Clavicle_Constraint
-    400496: Rig_L Clavicle_LookAt
-    400498: Rig_L Forearm_01
-    400500: Rig_L Forearm_02
-    400502: Rig_L Shoulder
-    400504: Rig_L UpperArm_Ring
-    400506: Rig_L UpperArm_Ring_Upnode
-    400508: Rig_L UpperArm_Upnode
-    400510: Rig_L_Scapula
-    400512: Rig_L_Scapula_LookAt1
-    400514: Rig_L_Scapula_LookAt2
-    400516: Rig_L_Scapula_LookAtUpnode
-    400518: Rig_L_Scapula_pos
-    400520: Rig_R Clavicle
-    400522: Rig_R Clavicle_Constraint
-    400524: Rig_R Clavicle_LookAt
-    400526: Rig_R Forearm_01
-    400528: Rig_R Forearm_02
-    400530: Rig_R Shoulder
-    400532: Rig_R UpperArm_Ring
-    400534: Rig_R UpperArm_Ring_Upnode
-    400536: Rig_R UpperArm_Upnode
-    400538: Rig_R_Scapula
-    400540: Rig_R_Scapula_LookAt1
-    400542: Rig_R_Scapula_LookAt2
-    400544: Rig_R_Scapula_LookAtUpnode
-    400546: Rig_R_Scapula_pos
-    400548: Rig_Trapezius_L_Base
-    400550: Rig_Trapezius_L_Rail
-    400552: Rig_Trapezius_L_Slider
-    400554: Rig_Trapezius_L_Slider002
-    400556: Rig_Trapezius_R_Base
-    400558: Rig_Trapezius_R_Rail
-    400560: RootMotion
-    2300000: Adam_BloodyHeadBracket
-    2300002: Adam_monitor_back
-    2300004: Adam_monitor_front
-    2300006: Eye_L_Blend_00
-    2300008: Eye_L_Blend_01
-    2300010: Eye_L_Blend_02
-    2300012: Eye_L_Blend_03
-    2300014: Eye_L_Blend_04
-    2300016: Eye_L_Blend_05
-    2300018: Eye_L_BlendBase
-    2300020: Eye_L_BlendScrew_00
-    2300022: Eye_L_BlendScrew_01
-    2300024: Eye_L_BlendScrew_02
-    2300026: Eye_L_BlendScrew_03
-    2300028: Eye_L_BlendScrew_04
-    2300030: Eye_L_BlendScrew_05
-    2300032: Eye_L_EyelidSegment_00
-    2300034: Eye_L_EyelidSegment_01
-    2300036: Eye_L_EyelidSegment_02
-    2300038: Eye_L_EyelidSegment_03
-    2300040: Eye_L_EyelidSegment_04
-    2300042: Eye_L_EyelidSegment_05
-    2300044: Eye_L_EyelidSegment_06
-    2300046: Eye_L_EyelidSegment_07
-    2300048: Eye_L_EyelidSegment_08
-    2300050: Eye_L_EyelidSegment_09
-    2300052: Eye_L_EyelidSegment_10
-    2300054: Eye_L_EyelidSegment_11
-    2300056: Eye_L_EyelidSegment_12
-    2300058: Eye_L_EyelidSegment_13
-    2300060: Eye_L_EyelidSegment_14
-    2300062: Eye_L_EyelidSegment_15
-    2300064: Eye_L_Lens
-    2300066: Eye_L_LowerEyelid
-    2300068: Eye_L_Sclera
-    2300070: Eye_L_Side1
-    2300072: Eye_L_Side2
-    2300074: Eye_L_UpperEyelid
-    2300076: Eye_R_Blend_00
-    2300078: Eye_R_Blend_01
-    2300080: Eye_R_Blend_02
-    2300082: Eye_R_Blend_03
-    2300084: Eye_R_Blend_04
-    2300086: Eye_R_Blend_05
-    2300088: Eye_R_BlendBase
-    2300090: Eye_R_BlendScrew_00
-    2300092: Eye_R_BlendScrew_01
-    2300094: Eye_R_BlendScrew_02
-    2300096: Eye_R_BlendScrew_03
-    2300098: Eye_R_BlendScrew_04
-    2300100: Eye_R_BlendScrew_05
-    2300102: Eye_R_EyelidSegment_00
-    2300104: Eye_R_EyelidSegment_01
-    2300106: Eye_R_EyelidSegment_02
-    2300108: Eye_R_EyelidSegment_03
-    2300110: Eye_R_EyelidSegment_04
-    2300112: Eye_R_EyelidSegment_05
-    2300114: Eye_R_EyelidSegment_06
-    2300116: Eye_R_EyelidSegment_07
-    2300118: Eye_R_EyelidSegment_08
-    2300120: Eye_R_EyelidSegment_09
-    2300122: Eye_R_EyelidSegment_10
-    2300124: Eye_R_EyelidSegment_11
-    2300126: Eye_R_EyelidSegment_12
-    2300128: Eye_R_EyelidSegment_13
-    2300130: Eye_R_EyelidSegment_14
-    2300132: Eye_R_EyelidSegment_15
-    2300134: Eye_R_Lens
-    2300136: Eye_R_LowerEyelid
-    2300138: Eye_R_Sclera
-    2300140: Eye_R_Side1
-    2300142: Eye_R_Side2
-    2300144: Eye_R_UpperEyelid
-    2300146: mesh_Adam_mask
-    2300148: Rig_Trapezius_L_Base
-    2300150: Rig_Trapezius_L_Rail
-    2300152: Rig_Trapezius_L_Slider
-    2300154: Rig_Trapezius_L_Slider002
-    2300156: Rig_Trapezius_R_Base
-    2300158: Rig_Trapezius_R_Rail
-    2300160: RootMotion
-    3300000: Adam_BloodyHeadBracket
-    3300002: Adam_monitor_back
-    3300004: Adam_monitor_front
-    3300006: Eye_L_Blend_00
-    3300008: Eye_L_Blend_01
-    3300010: Eye_L_Blend_02
-    3300012: Eye_L_Blend_03
-    3300014: Eye_L_Blend_04
-    3300016: Eye_L_Blend_05
-    3300018: Eye_L_BlendBase
-    3300020: Eye_L_BlendScrew_00
-    3300022: Eye_L_BlendScrew_01
-    3300024: Eye_L_BlendScrew_02
-    3300026: Eye_L_BlendScrew_03
-    3300028: Eye_L_BlendScrew_04
-    3300030: Eye_L_BlendScrew_05
-    3300032: Eye_L_EyelidSegment_00
-    3300034: Eye_L_EyelidSegment_01
-    3300036: Eye_L_EyelidSegment_02
-    3300038: Eye_L_EyelidSegment_03
-    3300040: Eye_L_EyelidSegment_04
-    3300042: Eye_L_EyelidSegment_05
-    3300044: Eye_L_EyelidSegment_06
-    3300046: Eye_L_EyelidSegment_07
-    3300048: Eye_L_EyelidSegment_08
-    3300050: Eye_L_EyelidSegment_09
-    3300052: Eye_L_EyelidSegment_10
-    3300054: Eye_L_EyelidSegment_11
-    3300056: Eye_L_EyelidSegment_12
-    3300058: Eye_L_EyelidSegment_13
-    3300060: Eye_L_EyelidSegment_14
-    3300062: Eye_L_EyelidSegment_15
-    3300064: Eye_L_Lens
-    3300066: Eye_L_LowerEyelid
-    3300068: Eye_L_Sclera
-    3300070: Eye_L_Side1
-    3300072: Eye_L_Side2
-    3300074: Eye_L_UpperEyelid
-    3300076: Eye_R_Blend_00
-    3300078: Eye_R_Blend_01
-    3300080: Eye_R_Blend_02
-    3300082: Eye_R_Blend_03
-    3300084: Eye_R_Blend_04
-    3300086: Eye_R_Blend_05
-    3300088: Eye_R_BlendBase
-    3300090: Eye_R_BlendScrew_00
-    3300092: Eye_R_BlendScrew_01
-    3300094: Eye_R_BlendScrew_02
-    3300096: Eye_R_BlendScrew_03
-    3300098: Eye_R_BlendScrew_04
-    3300100: Eye_R_BlendScrew_05
-    3300102: Eye_R_EyelidSegment_00
-    3300104: Eye_R_EyelidSegment_01
-    3300106: Eye_R_EyelidSegment_02
-    3300108: Eye_R_EyelidSegment_03
-    3300110: Eye_R_EyelidSegment_04
-    3300112: Eye_R_EyelidSegment_05
-    3300114: Eye_R_EyelidSegment_06
-    3300116: Eye_R_EyelidSegment_07
-    3300118: Eye_R_EyelidSegment_08
-    3300120: Eye_R_EyelidSegment_09
-    3300122: Eye_R_EyelidSegment_10
-    3300124: Eye_R_EyelidSegment_11
-    3300126: Eye_R_EyelidSegment_12
-    3300128: Eye_R_EyelidSegment_13
-    3300130: Eye_R_EyelidSegment_14
-    3300132: Eye_R_EyelidSegment_15
-    3300134: Eye_R_Lens
-    3300136: Eye_R_LowerEyelid
-    3300138: Eye_R_Sclera
-    3300140: Eye_R_Side1
-    3300142: Eye_R_Side2
-    3300144: Eye_R_UpperEyelid
-    3300146: mesh_Adam_mask
-    3300148: Rig_Trapezius_L_Base
-    3300150: Rig_Trapezius_L_Rail
-    3300152: Rig_Trapezius_L_Slider
-    3300154: Rig_Trapezius_L_Slider002
-    3300156: Rig_Trapezius_R_Base
-    3300158: Rig_Trapezius_R_Rail
-    3300160: RootMotion
-    4300000: Eye_L_Sclera
-    4300002: Eye_L_Lens
-    4300004: Eye_L_Blend_00
-    4300006: Eye_L_BlendScrew_00
-    4300008: Eye_L_Blend_05
-    4300010: Eye_L_BlendScrew_05
-    4300012: Eye_L_Blend_04
-    4300014: Eye_L_BlendScrew_04
-    4300016: Eye_L_Blend_03
-    4300018: Eye_L_BlendScrew_03
-    4300020: Eye_L_Blend_02
-    4300022: Eye_L_BlendScrew_01
-    4300024: Eye_L_Blend_01
-    4300026: Eye_L_BlendScrew_02
-    4300028: Eye_L_BlendBase
-    4300030: Eye_L_Side1
-    4300032: Eye_L_Side2
-    4300034: Eye_L_UpperEyelid
-    4300036: Eye_L_EyelidSegment_00
-    4300038: Eye_L_EyelidSegment_07
-    4300040: Eye_L_LowerEyelid
-    4300042: Eye_L_EyelidSegment_15
-    4300044: Eye_L_EyelidSegment_08
-    4300046: Eye_L_EyelidSegment_02
-    4300048: Eye_L_EyelidSegment_01
-    4300050: Eye_L_EyelidSegment_03
-    4300052: Eye_L_EyelidSegment_04
-    4300054: Eye_L_EyelidSegment_05
-    4300056: Eye_L_EyelidSegment_06
-    4300058: Eye_L_EyelidSegment_14
-    4300060: Eye_L_EyelidSegment_13
-    4300062: Eye_L_EyelidSegment_12
-    4300064: Eye_L_EyelidSegment_11
-    4300066: Eye_L_EyelidSegment_10
-    4300068: Eye_L_EyelidSegment_09
-    4300070: Eye_R_Sclera
-    4300072: Eye_R_Lens
-    4300074: Eye_R_Blend_00
-    4300076: Eye_R_BlendScrew_00
-    4300078: Eye_R_Blend_05
-    4300080: Eye_R_BlendScrew_05
-    4300082: Eye_R_Blend_04
-    4300084: Eye_R_BlendScrew_04
-    4300086: Eye_R_Blend_03
-    4300088: Eye_R_BlendScrew_03
-    4300090: Eye_R_Blend_02
-    4300092: Eye_R_BlendScrew_01
-    4300094: Eye_R_Blend_01
-    4300096: Eye_R_BlendScrew_02
-    4300098: Eye_R_BlendBase
-    4300100: Eye_R_Side1
-    4300102: Eye_R_Side2
-    4300104: Eye_R_UpperEyelid
-    4300106: Eye_R_EyelidSegment_00
-    4300108: Eye_R_EyelidSegment_07
-    4300110: Eye_R_LowerEyelid
-    4300112: Eye_R_EyelidSegment_15
-    4300114: Eye_R_EyelidSegment_08
-    4300116: Eye_R_EyelidSegment_03
-    4300118: Eye_R_EyelidSegment_02
-    4300120: Eye_R_EyelidSegment_01
-    4300122: Eye_R_EyelidSegment_04
-    4300124: Eye_R_EyelidSegment_05
-    4300126: Eye_R_EyelidSegment_06
-    4300128: Eye_R_EyelidSegment_09
-    4300130: Eye_R_EyelidSegment_10
-    4300132: Eye_R_EyelidSegment_11
-    4300134: Eye_R_EyelidSegment_12
-    4300136: Eye_R_EyelidSegment_13
-    4300138: Eye_R_EyelidSegment_14
-    4300140: mesh_Adam_mask
-    4300142: Adam_monitor_back
-    4300144: Adam_BloodyHeadBracket
-    4300146: Rig_Trapezius_L_Base
-    4300148: Rig_Trapezius_L_Rail
-    4300150: Rig_Trapezius_L_Slider
-    4300152: Rig_Trapezius_R_Base
-    4300154: Rig_Trapezius_R_Rail
-    4300156: Rig_Trapezius_L_Slider002
-    4300158: Adam_monitor_front
-    4300160: RootMotion
-    4300162: mesh_Adam_torso
-    4300164: mesh_Adam_legs
-    4300166: mesh_Adam_head
-    4300168: mesh_Adam_arms
-    4300170: mesh_Adam_RSleeve
-    4300172: mesh_Adam_LSleeve
-    4300174: mesh_Adam_spine
-    4300176: cables
-    7400000: Adam_Walk
-    9500000: //RootNode
-    13700000: cables
-    13700002: mesh_Adam_arms
-    13700004: mesh_Adam_head
-    13700006: mesh_Adam_legs
-    13700008: mesh_Adam_LSleeve
-    13700010: mesh_Adam_RSleeve
-    13700012: mesh_Adam_spine
-    13700014: mesh_Adam_torso
-    2186277476908879412: ImportLogs
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Adam_BloodyHeadBracket
+  - first:
+      1: 100002
+    second: Adam_monitor_back
+  - first:
+      1: 100004
+    second: Adam_monitor_front
+  - first:
+      1: 100006
+    second: Adam_Reference
+  - first:
+      1: 100008
+    second: Adam_RigCables_Front_03
+  - first:
+      1: 100010
+    second: Adam_RigCables_Front_05
+  - first:
+      1: 100012
+    second: Adam_RigCables_Front_06
+  - first:
+      1: 100014
+    second: Adam_RigCables_Front_08
+  - first:
+      1: 100016
+    second: Adam_RigNeckRubber_Bones_27
+  - first:
+      1: 100018
+    second: //RootNode
+  - first:
+      1: 100020
+    second: Bip01
+  - first:
+      1: 100022
+    second: Bip01 Head
+  - first:
+      1: 100024
+    second: Bip01 L Calf
+  - first:
+      1: 100026
+    second: Bip01 L Clavicle
+  - first:
+      1: 100028
+    second: Bip01 L Finger0
+  - first:
+      1: 100030
+    second: Bip01 L Finger01
+  - first:
+      1: 100032
+    second: Bip01 L Finger02
+  - first:
+      1: 100034
+    second: Bip01 L Finger1
+  - first:
+      1: 100036
+    second: Bip01 L Finger11
+  - first:
+      1: 100038
+    second: Bip01 L Finger12
+  - first:
+      1: 100040
+    second: Bip01 L Finger2
+  - first:
+      1: 100042
+    second: Bip01 L Finger21
+  - first:
+      1: 100044
+    second: Bip01 L Finger22
+  - first:
+      1: 100046
+    second: Bip01 L Finger3
+  - first:
+      1: 100048
+    second: Bip01 L Finger31
+  - first:
+      1: 100050
+    second: Bip01 L Finger32
+  - first:
+      1: 100052
+    second: Bip01 L Finger4
+  - first:
+      1: 100054
+    second: Bip01 L Finger41
+  - first:
+      1: 100056
+    second: Bip01 L Finger42
+  - first:
+      1: 100058
+    second: Bip01 L Foot
+  - first:
+      1: 100060
+    second: Bip01 L Forearm
+  - first:
+      1: 100062
+    second: Bip01 L ForeTwist
+  - first:
+      1: 100064
+    second: Bip01 L ForeTwist1
+  - first:
+      1: 100066
+    second: Bip01 L ForeTwist2
+  - first:
+      1: 100068
+    second: Bip01 L Hand
+  - first:
+      1: 100070
+    second: Bip01 L Thigh
+  - first:
+      1: 100072
+    second: Bip01 L Toe0
+  - first:
+      1: 100074
+    second: Bip01 L Toe1
+  - first:
+      1: 100076
+    second: Bip01 L Toe2
+  - first:
+      1: 100078
+    second: Bip01 L Toe3
+  - first:
+      1: 100080
+    second: Bip01 L Toe4
+  - first:
+      1: 100082
+    second: Bip01 L UpperArm
+  - first:
+      1: 100084
+    second: Bip01 Neck
+  - first:
+      1: 100086
+    second: Bip01 Neck1
+  - first:
+      1: 100088
+    second: Bip01 Neck2
+  - first:
+      1: 100090
+    second: Bip01 Pelvis
+  - first:
+      1: 100092
+    second: Bip01 R Calf
+  - first:
+      1: 100094
+    second: Bip01 R Clavicle
+  - first:
+      1: 100096
+    second: Bip01 R Finger0
+  - first:
+      1: 100098
+    second: Bip01 R Finger01
+  - first:
+      1: 100100
+    second: Bip01 R Finger02
+  - first:
+      1: 100102
+    second: Bip01 R Finger1
+  - first:
+      1: 100104
+    second: Bip01 R Finger11
+  - first:
+      1: 100106
+    second: Bip01 R Finger12
+  - first:
+      1: 100108
+    second: Bip01 R Finger2
+  - first:
+      1: 100110
+    second: Bip01 R Finger21
+  - first:
+      1: 100112
+    second: Bip01 R Finger22
+  - first:
+      1: 100114
+    second: Bip01 R Finger3
+  - first:
+      1: 100116
+    second: Bip01 R Finger31
+  - first:
+      1: 100118
+    second: Bip01 R Finger32
+  - first:
+      1: 100120
+    second: Bip01 R Finger4
+  - first:
+      1: 100122
+    second: Bip01 R Finger41
+  - first:
+      1: 100124
+    second: Bip01 R Finger42
+  - first:
+      1: 100126
+    second: Bip01 R Foot
+  - first:
+      1: 100128
+    second: Bip01 R Forearm
+  - first:
+      1: 100130
+    second: Bip01 R ForeTwist
+  - first:
+      1: 100132
+    second: Bip01 R ForeTwist1
+  - first:
+      1: 100134
+    second: Bip01 R ForeTwist2
+  - first:
+      1: 100136
+    second: Bip01 R Hand
+  - first:
+      1: 100138
+    second: Bip01 R Thigh
+  - first:
+      1: 100140
+    second: Bip01 R Toe0
+  - first:
+      1: 100142
+    second: Bip01 R Toe1
+  - first:
+      1: 100144
+    second: Bip01 R Toe2
+  - first:
+      1: 100146
+    second: Bip01 R Toe3
+  - first:
+      1: 100148
+    second: Bip01 R Toe4
+  - first:
+      1: 100150
+    second: Bip01 R UpperArm
+  - first:
+      1: 100152
+    second: Bip01 Spine
+  - first:
+      1: 100154
+    second: Bip01 Spine1
+  - first:
+      1: 100156
+    second: Bone005
+  - first:
+      1: 100158
+    second: Bone006
+  - first:
+      1: 100160
+    second: Bone007
+  - first:
+      1: 100162
+    second: Bone011
+  - first:
+      1: 100164
+    second: Bone011(mirrored)
+  - first:
+      1: 100166
+    second: cables
+  - first:
+      1: 100168
+    second: Eye_L_Blend_00
+  - first:
+      1: 100170
+    second: Eye_L_Blend_01
+  - first:
+      1: 100172
+    second: Eye_L_Blend_02
+  - first:
+      1: 100174
+    second: Eye_L_Blend_03
+  - first:
+      1: 100176
+    second: Eye_L_Blend_04
+  - first:
+      1: 100178
+    second: Eye_L_Blend_05
+  - first:
+      1: 100180
+    second: Eye_L_Blend_Null_00
+  - first:
+      1: 100182
+    second: Eye_L_Blend_Null_01
+  - first:
+      1: 100184
+    second: Eye_L_Blend_Null_02
+  - first:
+      1: 100186
+    second: Eye_L_Blend_Null_03
+  - first:
+      1: 100188
+    second: Eye_L_Blend_Null_04
+  - first:
+      1: 100190
+    second: Eye_L_Blend_Null_05
+  - first:
+      1: 100192
+    second: Eye_L_BlendBase
+  - first:
+      1: 100194
+    second: Eye_L_BlendRoot
+  - first:
+      1: 100196
+    second: Eye_L_BlendScrew_00
+  - first:
+      1: 100198
+    second: Eye_L_BlendScrew_01
+  - first:
+      1: 100200
+    second: Eye_L_BlendScrew_02
+  - first:
+      1: 100202
+    second: Eye_L_BlendScrew_03
+  - first:
+      1: 100204
+    second: Eye_L_BlendScrew_04
+  - first:
+      1: 100206
+    second: Eye_L_BlendScrew_05
+  - first:
+      1: 100208
+    second: Eye_L_EyelidSegment_00
+  - first:
+      1: 100210
+    second: Eye_L_EyelidSegment_01
+  - first:
+      1: 100212
+    second: Eye_L_EyelidSegment_02
+  - first:
+      1: 100214
+    second: Eye_L_EyelidSegment_03
+  - first:
+      1: 100216
+    second: Eye_L_EyelidSegment_04
+  - first:
+      1: 100218
+    second: Eye_L_EyelidSegment_05
+  - first:
+      1: 100220
+    second: Eye_L_EyelidSegment_06
+  - first:
+      1: 100222
+    second: Eye_L_EyelidSegment_07
+  - first:
+      1: 100224
+    second: Eye_L_EyelidSegment_08
+  - first:
+      1: 100226
+    second: Eye_L_EyelidSegment_09
+  - first:
+      1: 100228
+    second: Eye_L_EyelidSegment_10
+  - first:
+      1: 100230
+    second: Eye_L_EyelidSegment_11
+  - first:
+      1: 100232
+    second: Eye_L_EyelidSegment_12
+  - first:
+      1: 100234
+    second: Eye_L_EyelidSegment_13
+  - first:
+      1: 100236
+    second: Eye_L_EyelidSegment_14
+  - first:
+      1: 100238
+    second: Eye_L_EyelidSegment_15
+  - first:
+      1: 100240
+    second: Eye_L_EyelidsRig_00
+  - first:
+      1: 100242
+    second: Eye_L_EyelidsRig_01
+  - first:
+      1: 100244
+    second: Eye_L_EyelidsRig_02
+  - first:
+      1: 100246
+    second: Eye_L_EyelidsRig_03
+  - first:
+      1: 100248
+    second: Eye_L_EyelidsRig_04
+  - first:
+      1: 100250
+    second: Eye_L_EyelidsRig_05
+  - first:
+      1: 100252
+    second: Eye_L_EyelidsRig_12
+  - first:
+      1: 100254
+    second: Eye_L_EyelidsRig_13
+  - first:
+      1: 100256
+    second: Eye_L_EyelidsRig_14
+  - first:
+      1: 100258
+    second: Eye_L_EyelidsRig_15
+  - first:
+      1: 100260
+    second: Eye_L_EyelidsRig_16
+  - first:
+      1: 100262
+    second: Eye_L_EyelidsRig_17
+  - first:
+      1: 100264
+    second: Eye_L_Lens
+  - first:
+      1: 100266
+    second: Eye_L_LowerEyelid
+  - first:
+      1: 100268
+    second: Eye_L_Null
+  - first:
+      1: 100270
+    second: Eye_L_Sclera
+  - first:
+      1: 100272
+    second: Eye_L_Side1
+  - first:
+      1: 100274
+    second: Eye_L_Side2
+  - first:
+      1: 100276
+    second: Eye_L_UpperEyelid
+  - first:
+      1: 100278
+    second: Eye_R_Blend_00
+  - first:
+      1: 100280
+    second: Eye_R_Blend_01
+  - first:
+      1: 100282
+    second: Eye_R_Blend_02
+  - first:
+      1: 100284
+    second: Eye_R_Blend_03
+  - first:
+      1: 100286
+    second: Eye_R_Blend_04
+  - first:
+      1: 100288
+    second: Eye_R_Blend_05
+  - first:
+      1: 100290
+    second: Eye_R_Blend_Null_00
+  - first:
+      1: 100292
+    second: Eye_R_Blend_Null_01
+  - first:
+      1: 100294
+    second: Eye_R_Blend_Null_02
+  - first:
+      1: 100296
+    second: Eye_R_Blend_Null_03
+  - first:
+      1: 100298
+    second: Eye_R_Blend_Null_04
+  - first:
+      1: 100300
+    second: Eye_R_Blend_Null_05
+  - first:
+      1: 100302
+    second: Eye_R_BlendBase
+  - first:
+      1: 100304
+    second: Eye_R_BlendRoot
+  - first:
+      1: 100306
+    second: Eye_R_BlendScrew_00
+  - first:
+      1: 100308
+    second: Eye_R_BlendScrew_01
+  - first:
+      1: 100310
+    second: Eye_R_BlendScrew_02
+  - first:
+      1: 100312
+    second: Eye_R_BlendScrew_03
+  - first:
+      1: 100314
+    second: Eye_R_BlendScrew_04
+  - first:
+      1: 100316
+    second: Eye_R_BlendScrew_05
+  - first:
+      1: 100318
+    second: Eye_R_EyelidSegment_00
+  - first:
+      1: 100320
+    second: Eye_R_EyelidSegment_01
+  - first:
+      1: 100322
+    second: Eye_R_EyelidSegment_02
+  - first:
+      1: 100324
+    second: Eye_R_EyelidSegment_03
+  - first:
+      1: 100326
+    second: Eye_R_EyelidSegment_04
+  - first:
+      1: 100328
+    second: Eye_R_EyelidSegment_05
+  - first:
+      1: 100330
+    second: Eye_R_EyelidSegment_06
+  - first:
+      1: 100332
+    second: Eye_R_EyelidSegment_07
+  - first:
+      1: 100334
+    second: Eye_R_EyelidSegment_08
+  - first:
+      1: 100336
+    second: Eye_R_EyelidSegment_09
+  - first:
+      1: 100338
+    second: Eye_R_EyelidSegment_10
+  - first:
+      1: 100340
+    second: Eye_R_EyelidSegment_11
+  - first:
+      1: 100342
+    second: Eye_R_EyelidSegment_12
+  - first:
+      1: 100344
+    second: Eye_R_EyelidSegment_13
+  - first:
+      1: 100346
+    second: Eye_R_EyelidSegment_14
+  - first:
+      1: 100348
+    second: Eye_R_EyelidSegment_15
+  - first:
+      1: 100350
+    second: Eye_R_EyelidsRig_00
+  - first:
+      1: 100352
+    second: Eye_R_EyelidsRig_01
+  - first:
+      1: 100354
+    second: Eye_R_EyelidsRig_02
+  - first:
+      1: 100356
+    second: Eye_R_EyelidsRig_03
+  - first:
+      1: 100358
+    second: Eye_R_EyelidsRig_04
+  - first:
+      1: 100360
+    second: Eye_R_EyelidsRig_05
+  - first:
+      1: 100362
+    second: Eye_R_EyelidsRig_12
+  - first:
+      1: 100364
+    second: Eye_R_EyelidsRig_13
+  - first:
+      1: 100366
+    second: Eye_R_EyelidsRig_14
+  - first:
+      1: 100368
+    second: Eye_R_EyelidsRig_15
+  - first:
+      1: 100370
+    second: Eye_R_EyelidsRig_16
+  - first:
+      1: 100372
+    second: Eye_R_EyelidsRig_17
+  - first:
+      1: 100374
+    second: Eye_R_Lens
+  - first:
+      1: 100376
+    second: Eye_R_LowerEyelid
+  - first:
+      1: 100378
+    second: Eye_R_Null
+  - first:
+      1: 100380
+    second: Eye_R_Sclera
+  - first:
+      1: 100382
+    second: Eye_R_Side1
+  - first:
+      1: 100384
+    second: Eye_R_Side2
+  - first:
+      1: 100386
+    second: Eye_R_UpperEyelid
+  - first:
+      1: 100388
+    second: mesh_Adam_arms
+  - first:
+      1: 100390
+    second: mesh_Adam_head
+  - first:
+      1: 100392
+    second: mesh_Adam_legs
+  - first:
+      1: 100394
+    second: mesh_Adam_LSleeve
+  - first:
+      1: 100396
+    second: mesh_Adam_mask
+  - first:
+      1: 100398
+    second: mesh_Adam_RSleeve
+  - first:
+      1: 100400
+    second: mesh_Adam_spine
+  - first:
+      1: 100402
+    second: mesh_Adam_torso
+  - first:
+      1: 100404
+    second: Rig_BellyStretchyL_00
+  - first:
+      1: 100406
+    second: Rig_BellyStretchyL_01
+  - first:
+      1: 100408
+    second: Rig_BellyStretchyL_012
+  - first:
+      1: 100410
+    second: Rig_BellyStretchyL_013
+  - first:
+      1: 100412
+    second: Rig_BellyStretchyL_014
+  - first:
+      1: 100414
+    second: Rig_BellyStretchyL_015
+  - first:
+      1: 100416
+    second: Rig_BellyStretchyL_016
+  - first:
+      1: 100418
+    second: Rig_BellyStretchyL_017
+  - first:
+      1: 100420
+    second: Rig_BellyStretchyL_018
+  - first:
+      1: 100422
+    second: Rig_BellyStretchyL_019
+  - first:
+      1: 100424
+    second: Rig_BellyStretchyL_02
+  - first:
+      1: 100426
+    second: Rig_BellyStretchyL_020
+  - first:
+      1: 100428
+    second: Rig_BellyStretchyL_021
+  - first:
+      1: 100430
+    second: Rig_BellyStretchyL_022
+  - first:
+      1: 100432
+    second: Rig_BellyStretchyL_023
+  - first:
+      1: 100434
+    second: Rig_BellyStretchyL_024
+  - first:
+      1: 100436
+    second: Rig_BellyStretchyL_025
+  - first:
+      1: 100438
+    second: Rig_BellyStretchyL_026
+  - first:
+      1: 100440
+    second: Rig_BellyStretchyL_027
+  - first:
+      1: 100442
+    second: Rig_BellyStretchyL_028
+  - first:
+      1: 100444
+    second: Rig_BellyStretchyL_029
+  - first:
+      1: 100446
+    second: Rig_BellyStretchyL_03
+  - first:
+      1: 100448
+    second: Rig_BellyStretchyL_030
+  - first:
+      1: 100450
+    second: Rig_BellyStretchyL_031
+  - first:
+      1: 100452
+    second: Rig_BellyStretchyL_04
+  - first:
+      1: 100454
+    second: Rig_BellyStretchyL_05
+  - first:
+      1: 100456
+    second: Rig_BellyStretchyL_06
+  - first:
+      1: 100458
+    second: Rig_BellyStretchyL_07
+  - first:
+      1: 100460
+    second: Rig_BellyStretchyL_08
+  - first:
+      1: 100462
+    second: Rig_BellyStretchyL_09
+  - first:
+      1: 100464
+    second: Rig_BellyStretchyL_10
+  - first:
+      1: 100466
+    second: Rig_BellyStretchyL_11
+  - first:
+      1: 100468
+    second: Rig_BellyStretchyR_00
+  - first:
+      1: 100470
+    second: Rig_BellyStretchyR_01
+  - first:
+      1: 100472
+    second: Rig_BellyStretchyR_02
+  - first:
+      1: 100474
+    second: Rig_BellyStretchyR_03
+  - first:
+      1: 100476
+    second: Rig_BellyStretchyR_04
+  - first:
+      1: 100478
+    second: Rig_BellyStretchyR_05
+  - first:
+      1: 100480
+    second: Rig_BellyStretchyR_06
+  - first:
+      1: 100482
+    second: Rig_BellyStretchyR_07
+  - first:
+      1: 100484
+    second: Rig_BellyStretchyR_08
+  - first:
+      1: 100486
+    second: Rig_BellyStretchyR_09
+  - first:
+      1: 100488
+    second: Rig_BellyStretchyR_10
+  - first:
+      1: 100490
+    second: Rig_BellyStretchyR_11
+  - first:
+      1: 100492
+    second: Rig_L Clavicle
+  - first:
+      1: 100494
+    second: Rig_L Clavicle_Constraint
+  - first:
+      1: 100496
+    second: Rig_L Clavicle_LookAt
+  - first:
+      1: 100498
+    second: Rig_L Forearm_01
+  - first:
+      1: 100500
+    second: Rig_L Forearm_02
+  - first:
+      1: 100502
+    second: Rig_L Shoulder
+  - first:
+      1: 100504
+    second: Rig_L UpperArm_Ring
+  - first:
+      1: 100506
+    second: Rig_L UpperArm_Ring_Upnode
+  - first:
+      1: 100508
+    second: Rig_L UpperArm_Upnode
+  - first:
+      1: 100510
+    second: Rig_L_Scapula
+  - first:
+      1: 100512
+    second: Rig_L_Scapula_LookAt1
+  - first:
+      1: 100514
+    second: Rig_L_Scapula_LookAt2
+  - first:
+      1: 100516
+    second: Rig_L_Scapula_LookAtUpnode
+  - first:
+      1: 100518
+    second: Rig_L_Scapula_pos
+  - first:
+      1: 100520
+    second: Rig_R Clavicle
+  - first:
+      1: 100522
+    second: Rig_R Clavicle_Constraint
+  - first:
+      1: 100524
+    second: Rig_R Clavicle_LookAt
+  - first:
+      1: 100526
+    second: Rig_R Forearm_01
+  - first:
+      1: 100528
+    second: Rig_R Forearm_02
+  - first:
+      1: 100530
+    second: Rig_R Shoulder
+  - first:
+      1: 100532
+    second: Rig_R UpperArm_Ring
+  - first:
+      1: 100534
+    second: Rig_R UpperArm_Ring_Upnode
+  - first:
+      1: 100536
+    second: Rig_R UpperArm_Upnode
+  - first:
+      1: 100538
+    second: Rig_R_Scapula
+  - first:
+      1: 100540
+    second: Rig_R_Scapula_LookAt1
+  - first:
+      1: 100542
+    second: Rig_R_Scapula_LookAt2
+  - first:
+      1: 100544
+    second: Rig_R_Scapula_LookAtUpnode
+  - first:
+      1: 100546
+    second: Rig_R_Scapula_pos
+  - first:
+      1: 100548
+    second: Rig_Trapezius_L_Base
+  - first:
+      1: 100550
+    second: Rig_Trapezius_L_Rail
+  - first:
+      1: 100552
+    second: Rig_Trapezius_L_Slider
+  - first:
+      1: 100554
+    second: Rig_Trapezius_L_Slider002
+  - first:
+      1: 100556
+    second: Rig_Trapezius_R_Base
+  - first:
+      1: 100558
+    second: Rig_Trapezius_R_Rail
+  - first:
+      1: 100560
+    second: RootMotion
+  - first:
+      4: 400000
+    second: Adam_BloodyHeadBracket
+  - first:
+      4: 400002
+    second: Adam_monitor_back
+  - first:
+      4: 400004
+    second: Adam_monitor_front
+  - first:
+      4: 400006
+    second: Adam_Reference
+  - first:
+      4: 400008
+    second: Adam_RigCables_Front_03
+  - first:
+      4: 400010
+    second: Adam_RigCables_Front_05
+  - first:
+      4: 400012
+    second: Adam_RigCables_Front_06
+  - first:
+      4: 400014
+    second: Adam_RigCables_Front_08
+  - first:
+      4: 400016
+    second: Adam_RigNeckRubber_Bones_27
+  - first:
+      4: 400018
+    second: //RootNode
+  - first:
+      4: 400020
+    second: Bip01
+  - first:
+      4: 400022
+    second: Bip01 Head
+  - first:
+      4: 400024
+    second: Bip01 L Calf
+  - first:
+      4: 400026
+    second: Bip01 L Clavicle
+  - first:
+      4: 400028
+    second: Bip01 L Finger0
+  - first:
+      4: 400030
+    second: Bip01 L Finger01
+  - first:
+      4: 400032
+    second: Bip01 L Finger02
+  - first:
+      4: 400034
+    second: Bip01 L Finger1
+  - first:
+      4: 400036
+    second: Bip01 L Finger11
+  - first:
+      4: 400038
+    second: Bip01 L Finger12
+  - first:
+      4: 400040
+    second: Bip01 L Finger2
+  - first:
+      4: 400042
+    second: Bip01 L Finger21
+  - first:
+      4: 400044
+    second: Bip01 L Finger22
+  - first:
+      4: 400046
+    second: Bip01 L Finger3
+  - first:
+      4: 400048
+    second: Bip01 L Finger31
+  - first:
+      4: 400050
+    second: Bip01 L Finger32
+  - first:
+      4: 400052
+    second: Bip01 L Finger4
+  - first:
+      4: 400054
+    second: Bip01 L Finger41
+  - first:
+      4: 400056
+    second: Bip01 L Finger42
+  - first:
+      4: 400058
+    second: Bip01 L Foot
+  - first:
+      4: 400060
+    second: Bip01 L Forearm
+  - first:
+      4: 400062
+    second: Bip01 L ForeTwist
+  - first:
+      4: 400064
+    second: Bip01 L ForeTwist1
+  - first:
+      4: 400066
+    second: Bip01 L ForeTwist2
+  - first:
+      4: 400068
+    second: Bip01 L Hand
+  - first:
+      4: 400070
+    second: Bip01 L Thigh
+  - first:
+      4: 400072
+    second: Bip01 L Toe0
+  - first:
+      4: 400074
+    second: Bip01 L Toe1
+  - first:
+      4: 400076
+    second: Bip01 L Toe2
+  - first:
+      4: 400078
+    second: Bip01 L Toe3
+  - first:
+      4: 400080
+    second: Bip01 L Toe4
+  - first:
+      4: 400082
+    second: Bip01 L UpperArm
+  - first:
+      4: 400084
+    second: Bip01 Neck
+  - first:
+      4: 400086
+    second: Bip01 Neck1
+  - first:
+      4: 400088
+    second: Bip01 Neck2
+  - first:
+      4: 400090
+    second: Bip01 Pelvis
+  - first:
+      4: 400092
+    second: Bip01 R Calf
+  - first:
+      4: 400094
+    second: Bip01 R Clavicle
+  - first:
+      4: 400096
+    second: Bip01 R Finger0
+  - first:
+      4: 400098
+    second: Bip01 R Finger01
+  - first:
+      4: 400100
+    second: Bip01 R Finger02
+  - first:
+      4: 400102
+    second: Bip01 R Finger1
+  - first:
+      4: 400104
+    second: Bip01 R Finger11
+  - first:
+      4: 400106
+    second: Bip01 R Finger12
+  - first:
+      4: 400108
+    second: Bip01 R Finger2
+  - first:
+      4: 400110
+    second: Bip01 R Finger21
+  - first:
+      4: 400112
+    second: Bip01 R Finger22
+  - first:
+      4: 400114
+    second: Bip01 R Finger3
+  - first:
+      4: 400116
+    second: Bip01 R Finger31
+  - first:
+      4: 400118
+    second: Bip01 R Finger32
+  - first:
+      4: 400120
+    second: Bip01 R Finger4
+  - first:
+      4: 400122
+    second: Bip01 R Finger41
+  - first:
+      4: 400124
+    second: Bip01 R Finger42
+  - first:
+      4: 400126
+    second: Bip01 R Foot
+  - first:
+      4: 400128
+    second: Bip01 R Forearm
+  - first:
+      4: 400130
+    second: Bip01 R ForeTwist
+  - first:
+      4: 400132
+    second: Bip01 R ForeTwist1
+  - first:
+      4: 400134
+    second: Bip01 R ForeTwist2
+  - first:
+      4: 400136
+    second: Bip01 R Hand
+  - first:
+      4: 400138
+    second: Bip01 R Thigh
+  - first:
+      4: 400140
+    second: Bip01 R Toe0
+  - first:
+      4: 400142
+    second: Bip01 R Toe1
+  - first:
+      4: 400144
+    second: Bip01 R Toe2
+  - first:
+      4: 400146
+    second: Bip01 R Toe3
+  - first:
+      4: 400148
+    second: Bip01 R Toe4
+  - first:
+      4: 400150
+    second: Bip01 R UpperArm
+  - first:
+      4: 400152
+    second: Bip01 Spine
+  - first:
+      4: 400154
+    second: Bip01 Spine1
+  - first:
+      4: 400156
+    second: Bone005
+  - first:
+      4: 400158
+    second: Bone006
+  - first:
+      4: 400160
+    second: Bone007
+  - first:
+      4: 400162
+    second: Bone011
+  - first:
+      4: 400164
+    second: Bone011(mirrored)
+  - first:
+      4: 400166
+    second: cables
+  - first:
+      4: 400168
+    second: Eye_L_Blend_00
+  - first:
+      4: 400170
+    second: Eye_L_Blend_01
+  - first:
+      4: 400172
+    second: Eye_L_Blend_02
+  - first:
+      4: 400174
+    second: Eye_L_Blend_03
+  - first:
+      4: 400176
+    second: Eye_L_Blend_04
+  - first:
+      4: 400178
+    second: Eye_L_Blend_05
+  - first:
+      4: 400180
+    second: Eye_L_Blend_Null_00
+  - first:
+      4: 400182
+    second: Eye_L_Blend_Null_01
+  - first:
+      4: 400184
+    second: Eye_L_Blend_Null_02
+  - first:
+      4: 400186
+    second: Eye_L_Blend_Null_03
+  - first:
+      4: 400188
+    second: Eye_L_Blend_Null_04
+  - first:
+      4: 400190
+    second: Eye_L_Blend_Null_05
+  - first:
+      4: 400192
+    second: Eye_L_BlendBase
+  - first:
+      4: 400194
+    second: Eye_L_BlendRoot
+  - first:
+      4: 400196
+    second: Eye_L_BlendScrew_00
+  - first:
+      4: 400198
+    second: Eye_L_BlendScrew_01
+  - first:
+      4: 400200
+    second: Eye_L_BlendScrew_02
+  - first:
+      4: 400202
+    second: Eye_L_BlendScrew_03
+  - first:
+      4: 400204
+    second: Eye_L_BlendScrew_04
+  - first:
+      4: 400206
+    second: Eye_L_BlendScrew_05
+  - first:
+      4: 400208
+    second: Eye_L_EyelidSegment_00
+  - first:
+      4: 400210
+    second: Eye_L_EyelidSegment_01
+  - first:
+      4: 400212
+    second: Eye_L_EyelidSegment_02
+  - first:
+      4: 400214
+    second: Eye_L_EyelidSegment_03
+  - first:
+      4: 400216
+    second: Eye_L_EyelidSegment_04
+  - first:
+      4: 400218
+    second: Eye_L_EyelidSegment_05
+  - first:
+      4: 400220
+    second: Eye_L_EyelidSegment_06
+  - first:
+      4: 400222
+    second: Eye_L_EyelidSegment_07
+  - first:
+      4: 400224
+    second: Eye_L_EyelidSegment_08
+  - first:
+      4: 400226
+    second: Eye_L_EyelidSegment_09
+  - first:
+      4: 400228
+    second: Eye_L_EyelidSegment_10
+  - first:
+      4: 400230
+    second: Eye_L_EyelidSegment_11
+  - first:
+      4: 400232
+    second: Eye_L_EyelidSegment_12
+  - first:
+      4: 400234
+    second: Eye_L_EyelidSegment_13
+  - first:
+      4: 400236
+    second: Eye_L_EyelidSegment_14
+  - first:
+      4: 400238
+    second: Eye_L_EyelidSegment_15
+  - first:
+      4: 400240
+    second: Eye_L_EyelidsRig_00
+  - first:
+      4: 400242
+    second: Eye_L_EyelidsRig_01
+  - first:
+      4: 400244
+    second: Eye_L_EyelidsRig_02
+  - first:
+      4: 400246
+    second: Eye_L_EyelidsRig_03
+  - first:
+      4: 400248
+    second: Eye_L_EyelidsRig_04
+  - first:
+      4: 400250
+    second: Eye_L_EyelidsRig_05
+  - first:
+      4: 400252
+    second: Eye_L_EyelidsRig_12
+  - first:
+      4: 400254
+    second: Eye_L_EyelidsRig_13
+  - first:
+      4: 400256
+    second: Eye_L_EyelidsRig_14
+  - first:
+      4: 400258
+    second: Eye_L_EyelidsRig_15
+  - first:
+      4: 400260
+    second: Eye_L_EyelidsRig_16
+  - first:
+      4: 400262
+    second: Eye_L_EyelidsRig_17
+  - first:
+      4: 400264
+    second: Eye_L_Lens
+  - first:
+      4: 400266
+    second: Eye_L_LowerEyelid
+  - first:
+      4: 400268
+    second: Eye_L_Null
+  - first:
+      4: 400270
+    second: Eye_L_Sclera
+  - first:
+      4: 400272
+    second: Eye_L_Side1
+  - first:
+      4: 400274
+    second: Eye_L_Side2
+  - first:
+      4: 400276
+    second: Eye_L_UpperEyelid
+  - first:
+      4: 400278
+    second: Eye_R_Blend_00
+  - first:
+      4: 400280
+    second: Eye_R_Blend_01
+  - first:
+      4: 400282
+    second: Eye_R_Blend_02
+  - first:
+      4: 400284
+    second: Eye_R_Blend_03
+  - first:
+      4: 400286
+    second: Eye_R_Blend_04
+  - first:
+      4: 400288
+    second: Eye_R_Blend_05
+  - first:
+      4: 400290
+    second: Eye_R_Blend_Null_00
+  - first:
+      4: 400292
+    second: Eye_R_Blend_Null_01
+  - first:
+      4: 400294
+    second: Eye_R_Blend_Null_02
+  - first:
+      4: 400296
+    second: Eye_R_Blend_Null_03
+  - first:
+      4: 400298
+    second: Eye_R_Blend_Null_04
+  - first:
+      4: 400300
+    second: Eye_R_Blend_Null_05
+  - first:
+      4: 400302
+    second: Eye_R_BlendBase
+  - first:
+      4: 400304
+    second: Eye_R_BlendRoot
+  - first:
+      4: 400306
+    second: Eye_R_BlendScrew_00
+  - first:
+      4: 400308
+    second: Eye_R_BlendScrew_01
+  - first:
+      4: 400310
+    second: Eye_R_BlendScrew_02
+  - first:
+      4: 400312
+    second: Eye_R_BlendScrew_03
+  - first:
+      4: 400314
+    second: Eye_R_BlendScrew_04
+  - first:
+      4: 400316
+    second: Eye_R_BlendScrew_05
+  - first:
+      4: 400318
+    second: Eye_R_EyelidSegment_00
+  - first:
+      4: 400320
+    second: Eye_R_EyelidSegment_01
+  - first:
+      4: 400322
+    second: Eye_R_EyelidSegment_02
+  - first:
+      4: 400324
+    second: Eye_R_EyelidSegment_03
+  - first:
+      4: 400326
+    second: Eye_R_EyelidSegment_04
+  - first:
+      4: 400328
+    second: Eye_R_EyelidSegment_05
+  - first:
+      4: 400330
+    second: Eye_R_EyelidSegment_06
+  - first:
+      4: 400332
+    second: Eye_R_EyelidSegment_07
+  - first:
+      4: 400334
+    second: Eye_R_EyelidSegment_08
+  - first:
+      4: 400336
+    second: Eye_R_EyelidSegment_09
+  - first:
+      4: 400338
+    second: Eye_R_EyelidSegment_10
+  - first:
+      4: 400340
+    second: Eye_R_EyelidSegment_11
+  - first:
+      4: 400342
+    second: Eye_R_EyelidSegment_12
+  - first:
+      4: 400344
+    second: Eye_R_EyelidSegment_13
+  - first:
+      4: 400346
+    second: Eye_R_EyelidSegment_14
+  - first:
+      4: 400348
+    second: Eye_R_EyelidSegment_15
+  - first:
+      4: 400350
+    second: Eye_R_EyelidsRig_00
+  - first:
+      4: 400352
+    second: Eye_R_EyelidsRig_01
+  - first:
+      4: 400354
+    second: Eye_R_EyelidsRig_02
+  - first:
+      4: 400356
+    second: Eye_R_EyelidsRig_03
+  - first:
+      4: 400358
+    second: Eye_R_EyelidsRig_04
+  - first:
+      4: 400360
+    second: Eye_R_EyelidsRig_05
+  - first:
+      4: 400362
+    second: Eye_R_EyelidsRig_12
+  - first:
+      4: 400364
+    second: Eye_R_EyelidsRig_13
+  - first:
+      4: 400366
+    second: Eye_R_EyelidsRig_14
+  - first:
+      4: 400368
+    second: Eye_R_EyelidsRig_15
+  - first:
+      4: 400370
+    second: Eye_R_EyelidsRig_16
+  - first:
+      4: 400372
+    second: Eye_R_EyelidsRig_17
+  - first:
+      4: 400374
+    second: Eye_R_Lens
+  - first:
+      4: 400376
+    second: Eye_R_LowerEyelid
+  - first:
+      4: 400378
+    second: Eye_R_Null
+  - first:
+      4: 400380
+    second: Eye_R_Sclera
+  - first:
+      4: 400382
+    second: Eye_R_Side1
+  - first:
+      4: 400384
+    second: Eye_R_Side2
+  - first:
+      4: 400386
+    second: Eye_R_UpperEyelid
+  - first:
+      4: 400388
+    second: mesh_Adam_arms
+  - first:
+      4: 400390
+    second: mesh_Adam_head
+  - first:
+      4: 400392
+    second: mesh_Adam_legs
+  - first:
+      4: 400394
+    second: mesh_Adam_LSleeve
+  - first:
+      4: 400396
+    second: mesh_Adam_mask
+  - first:
+      4: 400398
+    second: mesh_Adam_RSleeve
+  - first:
+      4: 400400
+    second: mesh_Adam_spine
+  - first:
+      4: 400402
+    second: mesh_Adam_torso
+  - first:
+      4: 400404
+    second: Rig_BellyStretchyL_00
+  - first:
+      4: 400406
+    second: Rig_BellyStretchyL_01
+  - first:
+      4: 400408
+    second: Rig_BellyStretchyL_012
+  - first:
+      4: 400410
+    second: Rig_BellyStretchyL_013
+  - first:
+      4: 400412
+    second: Rig_BellyStretchyL_014
+  - first:
+      4: 400414
+    second: Rig_BellyStretchyL_015
+  - first:
+      4: 400416
+    second: Rig_BellyStretchyL_016
+  - first:
+      4: 400418
+    second: Rig_BellyStretchyL_017
+  - first:
+      4: 400420
+    second: Rig_BellyStretchyL_018
+  - first:
+      4: 400422
+    second: Rig_BellyStretchyL_019
+  - first:
+      4: 400424
+    second: Rig_BellyStretchyL_02
+  - first:
+      4: 400426
+    second: Rig_BellyStretchyL_020
+  - first:
+      4: 400428
+    second: Rig_BellyStretchyL_021
+  - first:
+      4: 400430
+    second: Rig_BellyStretchyL_022
+  - first:
+      4: 400432
+    second: Rig_BellyStretchyL_023
+  - first:
+      4: 400434
+    second: Rig_BellyStretchyL_024
+  - first:
+      4: 400436
+    second: Rig_BellyStretchyL_025
+  - first:
+      4: 400438
+    second: Rig_BellyStretchyL_026
+  - first:
+      4: 400440
+    second: Rig_BellyStretchyL_027
+  - first:
+      4: 400442
+    second: Rig_BellyStretchyL_028
+  - first:
+      4: 400444
+    second: Rig_BellyStretchyL_029
+  - first:
+      4: 400446
+    second: Rig_BellyStretchyL_03
+  - first:
+      4: 400448
+    second: Rig_BellyStretchyL_030
+  - first:
+      4: 400450
+    second: Rig_BellyStretchyL_031
+  - first:
+      4: 400452
+    second: Rig_BellyStretchyL_04
+  - first:
+      4: 400454
+    second: Rig_BellyStretchyL_05
+  - first:
+      4: 400456
+    second: Rig_BellyStretchyL_06
+  - first:
+      4: 400458
+    second: Rig_BellyStretchyL_07
+  - first:
+      4: 400460
+    second: Rig_BellyStretchyL_08
+  - first:
+      4: 400462
+    second: Rig_BellyStretchyL_09
+  - first:
+      4: 400464
+    second: Rig_BellyStretchyL_10
+  - first:
+      4: 400466
+    second: Rig_BellyStretchyL_11
+  - first:
+      4: 400468
+    second: Rig_BellyStretchyR_00
+  - first:
+      4: 400470
+    second: Rig_BellyStretchyR_01
+  - first:
+      4: 400472
+    second: Rig_BellyStretchyR_02
+  - first:
+      4: 400474
+    second: Rig_BellyStretchyR_03
+  - first:
+      4: 400476
+    second: Rig_BellyStretchyR_04
+  - first:
+      4: 400478
+    second: Rig_BellyStretchyR_05
+  - first:
+      4: 400480
+    second: Rig_BellyStretchyR_06
+  - first:
+      4: 400482
+    second: Rig_BellyStretchyR_07
+  - first:
+      4: 400484
+    second: Rig_BellyStretchyR_08
+  - first:
+      4: 400486
+    second: Rig_BellyStretchyR_09
+  - first:
+      4: 400488
+    second: Rig_BellyStretchyR_10
+  - first:
+      4: 400490
+    second: Rig_BellyStretchyR_11
+  - first:
+      4: 400492
+    second: Rig_L Clavicle
+  - first:
+      4: 400494
+    second: Rig_L Clavicle_Constraint
+  - first:
+      4: 400496
+    second: Rig_L Clavicle_LookAt
+  - first:
+      4: 400498
+    second: Rig_L Forearm_01
+  - first:
+      4: 400500
+    second: Rig_L Forearm_02
+  - first:
+      4: 400502
+    second: Rig_L Shoulder
+  - first:
+      4: 400504
+    second: Rig_L UpperArm_Ring
+  - first:
+      4: 400506
+    second: Rig_L UpperArm_Ring_Upnode
+  - first:
+      4: 400508
+    second: Rig_L UpperArm_Upnode
+  - first:
+      4: 400510
+    second: Rig_L_Scapula
+  - first:
+      4: 400512
+    second: Rig_L_Scapula_LookAt1
+  - first:
+      4: 400514
+    second: Rig_L_Scapula_LookAt2
+  - first:
+      4: 400516
+    second: Rig_L_Scapula_LookAtUpnode
+  - first:
+      4: 400518
+    second: Rig_L_Scapula_pos
+  - first:
+      4: 400520
+    second: Rig_R Clavicle
+  - first:
+      4: 400522
+    second: Rig_R Clavicle_Constraint
+  - first:
+      4: 400524
+    second: Rig_R Clavicle_LookAt
+  - first:
+      4: 400526
+    second: Rig_R Forearm_01
+  - first:
+      4: 400528
+    second: Rig_R Forearm_02
+  - first:
+      4: 400530
+    second: Rig_R Shoulder
+  - first:
+      4: 400532
+    second: Rig_R UpperArm_Ring
+  - first:
+      4: 400534
+    second: Rig_R UpperArm_Ring_Upnode
+  - first:
+      4: 400536
+    second: Rig_R UpperArm_Upnode
+  - first:
+      4: 400538
+    second: Rig_R_Scapula
+  - first:
+      4: 400540
+    second: Rig_R_Scapula_LookAt1
+  - first:
+      4: 400542
+    second: Rig_R_Scapula_LookAt2
+  - first:
+      4: 400544
+    second: Rig_R_Scapula_LookAtUpnode
+  - first:
+      4: 400546
+    second: Rig_R_Scapula_pos
+  - first:
+      4: 400548
+    second: Rig_Trapezius_L_Base
+  - first:
+      4: 400550
+    second: Rig_Trapezius_L_Rail
+  - first:
+      4: 400552
+    second: Rig_Trapezius_L_Slider
+  - first:
+      4: 400554
+    second: Rig_Trapezius_L_Slider002
+  - first:
+      4: 400556
+    second: Rig_Trapezius_R_Base
+  - first:
+      4: 400558
+    second: Rig_Trapezius_R_Rail
+  - first:
+      4: 400560
+    second: RootMotion
+  - first:
+      23: 2300000
+    second: Adam_BloodyHeadBracket
+  - first:
+      23: 2300002
+    second: Adam_monitor_back
+  - first:
+      23: 2300004
+    second: Adam_monitor_front
+  - first:
+      23: 2300006
+    second: Eye_L_Blend_00
+  - first:
+      23: 2300008
+    second: Eye_L_Blend_01
+  - first:
+      23: 2300010
+    second: Eye_L_Blend_02
+  - first:
+      23: 2300012
+    second: Eye_L_Blend_03
+  - first:
+      23: 2300014
+    second: Eye_L_Blend_04
+  - first:
+      23: 2300016
+    second: Eye_L_Blend_05
+  - first:
+      23: 2300018
+    second: Eye_L_BlendBase
+  - first:
+      23: 2300020
+    second: Eye_L_BlendScrew_00
+  - first:
+      23: 2300022
+    second: Eye_L_BlendScrew_01
+  - first:
+      23: 2300024
+    second: Eye_L_BlendScrew_02
+  - first:
+      23: 2300026
+    second: Eye_L_BlendScrew_03
+  - first:
+      23: 2300028
+    second: Eye_L_BlendScrew_04
+  - first:
+      23: 2300030
+    second: Eye_L_BlendScrew_05
+  - first:
+      23: 2300032
+    second: Eye_L_EyelidSegment_00
+  - first:
+      23: 2300034
+    second: Eye_L_EyelidSegment_01
+  - first:
+      23: 2300036
+    second: Eye_L_EyelidSegment_02
+  - first:
+      23: 2300038
+    second: Eye_L_EyelidSegment_03
+  - first:
+      23: 2300040
+    second: Eye_L_EyelidSegment_04
+  - first:
+      23: 2300042
+    second: Eye_L_EyelidSegment_05
+  - first:
+      23: 2300044
+    second: Eye_L_EyelidSegment_06
+  - first:
+      23: 2300046
+    second: Eye_L_EyelidSegment_07
+  - first:
+      23: 2300048
+    second: Eye_L_EyelidSegment_08
+  - first:
+      23: 2300050
+    second: Eye_L_EyelidSegment_09
+  - first:
+      23: 2300052
+    second: Eye_L_EyelidSegment_10
+  - first:
+      23: 2300054
+    second: Eye_L_EyelidSegment_11
+  - first:
+      23: 2300056
+    second: Eye_L_EyelidSegment_12
+  - first:
+      23: 2300058
+    second: Eye_L_EyelidSegment_13
+  - first:
+      23: 2300060
+    second: Eye_L_EyelidSegment_14
+  - first:
+      23: 2300062
+    second: Eye_L_EyelidSegment_15
+  - first:
+      23: 2300064
+    second: Eye_L_Lens
+  - first:
+      23: 2300066
+    second: Eye_L_LowerEyelid
+  - first:
+      23: 2300068
+    second: Eye_L_Sclera
+  - first:
+      23: 2300070
+    second: Eye_L_Side1
+  - first:
+      23: 2300072
+    second: Eye_L_Side2
+  - first:
+      23: 2300074
+    second: Eye_L_UpperEyelid
+  - first:
+      23: 2300076
+    second: Eye_R_Blend_00
+  - first:
+      23: 2300078
+    second: Eye_R_Blend_01
+  - first:
+      23: 2300080
+    second: Eye_R_Blend_02
+  - first:
+      23: 2300082
+    second: Eye_R_Blend_03
+  - first:
+      23: 2300084
+    second: Eye_R_Blend_04
+  - first:
+      23: 2300086
+    second: Eye_R_Blend_05
+  - first:
+      23: 2300088
+    second: Eye_R_BlendBase
+  - first:
+      23: 2300090
+    second: Eye_R_BlendScrew_00
+  - first:
+      23: 2300092
+    second: Eye_R_BlendScrew_01
+  - first:
+      23: 2300094
+    second: Eye_R_BlendScrew_02
+  - first:
+      23: 2300096
+    second: Eye_R_BlendScrew_03
+  - first:
+      23: 2300098
+    second: Eye_R_BlendScrew_04
+  - first:
+      23: 2300100
+    second: Eye_R_BlendScrew_05
+  - first:
+      23: 2300102
+    second: Eye_R_EyelidSegment_00
+  - first:
+      23: 2300104
+    second: Eye_R_EyelidSegment_01
+  - first:
+      23: 2300106
+    second: Eye_R_EyelidSegment_02
+  - first:
+      23: 2300108
+    second: Eye_R_EyelidSegment_03
+  - first:
+      23: 2300110
+    second: Eye_R_EyelidSegment_04
+  - first:
+      23: 2300112
+    second: Eye_R_EyelidSegment_05
+  - first:
+      23: 2300114
+    second: Eye_R_EyelidSegment_06
+  - first:
+      23: 2300116
+    second: Eye_R_EyelidSegment_07
+  - first:
+      23: 2300118
+    second: Eye_R_EyelidSegment_08
+  - first:
+      23: 2300120
+    second: Eye_R_EyelidSegment_09
+  - first:
+      23: 2300122
+    second: Eye_R_EyelidSegment_10
+  - first:
+      23: 2300124
+    second: Eye_R_EyelidSegment_11
+  - first:
+      23: 2300126
+    second: Eye_R_EyelidSegment_12
+  - first:
+      23: 2300128
+    second: Eye_R_EyelidSegment_13
+  - first:
+      23: 2300130
+    second: Eye_R_EyelidSegment_14
+  - first:
+      23: 2300132
+    second: Eye_R_EyelidSegment_15
+  - first:
+      23: 2300134
+    second: Eye_R_Lens
+  - first:
+      23: 2300136
+    second: Eye_R_LowerEyelid
+  - first:
+      23: 2300138
+    second: Eye_R_Sclera
+  - first:
+      23: 2300140
+    second: Eye_R_Side1
+  - first:
+      23: 2300142
+    second: Eye_R_Side2
+  - first:
+      23: 2300144
+    second: Eye_R_UpperEyelid
+  - first:
+      23: 2300146
+    second: mesh_Adam_mask
+  - first:
+      23: 2300148
+    second: Rig_Trapezius_L_Base
+  - first:
+      23: 2300150
+    second: Rig_Trapezius_L_Rail
+  - first:
+      23: 2300152
+    second: Rig_Trapezius_L_Slider
+  - first:
+      23: 2300154
+    second: Rig_Trapezius_L_Slider002
+  - first:
+      23: 2300156
+    second: Rig_Trapezius_R_Base
+  - first:
+      23: 2300158
+    second: Rig_Trapezius_R_Rail
+  - first:
+      23: 2300160
+    second: RootMotion
+  - first:
+      33: 3300000
+    second: Adam_BloodyHeadBracket
+  - first:
+      33: 3300002
+    second: Adam_monitor_back
+  - first:
+      33: 3300004
+    second: Adam_monitor_front
+  - first:
+      33: 3300006
+    second: Eye_L_Blend_00
+  - first:
+      33: 3300008
+    second: Eye_L_Blend_01
+  - first:
+      33: 3300010
+    second: Eye_L_Blend_02
+  - first:
+      33: 3300012
+    second: Eye_L_Blend_03
+  - first:
+      33: 3300014
+    second: Eye_L_Blend_04
+  - first:
+      33: 3300016
+    second: Eye_L_Blend_05
+  - first:
+      33: 3300018
+    second: Eye_L_BlendBase
+  - first:
+      33: 3300020
+    second: Eye_L_BlendScrew_00
+  - first:
+      33: 3300022
+    second: Eye_L_BlendScrew_01
+  - first:
+      33: 3300024
+    second: Eye_L_BlendScrew_02
+  - first:
+      33: 3300026
+    second: Eye_L_BlendScrew_03
+  - first:
+      33: 3300028
+    second: Eye_L_BlendScrew_04
+  - first:
+      33: 3300030
+    second: Eye_L_BlendScrew_05
+  - first:
+      33: 3300032
+    second: Eye_L_EyelidSegment_00
+  - first:
+      33: 3300034
+    second: Eye_L_EyelidSegment_01
+  - first:
+      33: 3300036
+    second: Eye_L_EyelidSegment_02
+  - first:
+      33: 3300038
+    second: Eye_L_EyelidSegment_03
+  - first:
+      33: 3300040
+    second: Eye_L_EyelidSegment_04
+  - first:
+      33: 3300042
+    second: Eye_L_EyelidSegment_05
+  - first:
+      33: 3300044
+    second: Eye_L_EyelidSegment_06
+  - first:
+      33: 3300046
+    second: Eye_L_EyelidSegment_07
+  - first:
+      33: 3300048
+    second: Eye_L_EyelidSegment_08
+  - first:
+      33: 3300050
+    second: Eye_L_EyelidSegment_09
+  - first:
+      33: 3300052
+    second: Eye_L_EyelidSegment_10
+  - first:
+      33: 3300054
+    second: Eye_L_EyelidSegment_11
+  - first:
+      33: 3300056
+    second: Eye_L_EyelidSegment_12
+  - first:
+      33: 3300058
+    second: Eye_L_EyelidSegment_13
+  - first:
+      33: 3300060
+    second: Eye_L_EyelidSegment_14
+  - first:
+      33: 3300062
+    second: Eye_L_EyelidSegment_15
+  - first:
+      33: 3300064
+    second: Eye_L_Lens
+  - first:
+      33: 3300066
+    second: Eye_L_LowerEyelid
+  - first:
+      33: 3300068
+    second: Eye_L_Sclera
+  - first:
+      33: 3300070
+    second: Eye_L_Side1
+  - first:
+      33: 3300072
+    second: Eye_L_Side2
+  - first:
+      33: 3300074
+    second: Eye_L_UpperEyelid
+  - first:
+      33: 3300076
+    second: Eye_R_Blend_00
+  - first:
+      33: 3300078
+    second: Eye_R_Blend_01
+  - first:
+      33: 3300080
+    second: Eye_R_Blend_02
+  - first:
+      33: 3300082
+    second: Eye_R_Blend_03
+  - first:
+      33: 3300084
+    second: Eye_R_Blend_04
+  - first:
+      33: 3300086
+    second: Eye_R_Blend_05
+  - first:
+      33: 3300088
+    second: Eye_R_BlendBase
+  - first:
+      33: 3300090
+    second: Eye_R_BlendScrew_00
+  - first:
+      33: 3300092
+    second: Eye_R_BlendScrew_01
+  - first:
+      33: 3300094
+    second: Eye_R_BlendScrew_02
+  - first:
+      33: 3300096
+    second: Eye_R_BlendScrew_03
+  - first:
+      33: 3300098
+    second: Eye_R_BlendScrew_04
+  - first:
+      33: 3300100
+    second: Eye_R_BlendScrew_05
+  - first:
+      33: 3300102
+    second: Eye_R_EyelidSegment_00
+  - first:
+      33: 3300104
+    second: Eye_R_EyelidSegment_01
+  - first:
+      33: 3300106
+    second: Eye_R_EyelidSegment_02
+  - first:
+      33: 3300108
+    second: Eye_R_EyelidSegment_03
+  - first:
+      33: 3300110
+    second: Eye_R_EyelidSegment_04
+  - first:
+      33: 3300112
+    second: Eye_R_EyelidSegment_05
+  - first:
+      33: 3300114
+    second: Eye_R_EyelidSegment_06
+  - first:
+      33: 3300116
+    second: Eye_R_EyelidSegment_07
+  - first:
+      33: 3300118
+    second: Eye_R_EyelidSegment_08
+  - first:
+      33: 3300120
+    second: Eye_R_EyelidSegment_09
+  - first:
+      33: 3300122
+    second: Eye_R_EyelidSegment_10
+  - first:
+      33: 3300124
+    second: Eye_R_EyelidSegment_11
+  - first:
+      33: 3300126
+    second: Eye_R_EyelidSegment_12
+  - first:
+      33: 3300128
+    second: Eye_R_EyelidSegment_13
+  - first:
+      33: 3300130
+    second: Eye_R_EyelidSegment_14
+  - first:
+      33: 3300132
+    second: Eye_R_EyelidSegment_15
+  - first:
+      33: 3300134
+    second: Eye_R_Lens
+  - first:
+      33: 3300136
+    second: Eye_R_LowerEyelid
+  - first:
+      33: 3300138
+    second: Eye_R_Sclera
+  - first:
+      33: 3300140
+    second: Eye_R_Side1
+  - first:
+      33: 3300142
+    second: Eye_R_Side2
+  - first:
+      33: 3300144
+    second: Eye_R_UpperEyelid
+  - first:
+      33: 3300146
+    second: mesh_Adam_mask
+  - first:
+      33: 3300148
+    second: Rig_Trapezius_L_Base
+  - first:
+      33: 3300150
+    second: Rig_Trapezius_L_Rail
+  - first:
+      33: 3300152
+    second: Rig_Trapezius_L_Slider
+  - first:
+      33: 3300154
+    second: Rig_Trapezius_L_Slider002
+  - first:
+      33: 3300156
+    second: Rig_Trapezius_R_Base
+  - first:
+      33: 3300158
+    second: Rig_Trapezius_R_Rail
+  - first:
+      33: 3300160
+    second: RootMotion
+  - first:
+      43: 4300000
+    second: Eye_L_Sclera
+  - first:
+      43: 4300002
+    second: Eye_L_Lens
+  - first:
+      43: 4300004
+    second: Eye_L_Blend_00
+  - first:
+      43: 4300006
+    second: Eye_L_BlendScrew_00
+  - first:
+      43: 4300008
+    second: Eye_L_Blend_05
+  - first:
+      43: 4300010
+    second: Eye_L_BlendScrew_05
+  - first:
+      43: 4300012
+    second: Eye_L_Blend_04
+  - first:
+      43: 4300014
+    second: Eye_L_BlendScrew_04
+  - first:
+      43: 4300016
+    second: Eye_L_Blend_03
+  - first:
+      43: 4300018
+    second: Eye_L_BlendScrew_03
+  - first:
+      43: 4300020
+    second: Eye_L_Blend_02
+  - first:
+      43: 4300022
+    second: Eye_L_BlendScrew_01
+  - first:
+      43: 4300024
+    second: Eye_L_Blend_01
+  - first:
+      43: 4300026
+    second: Eye_L_BlendScrew_02
+  - first:
+      43: 4300028
+    second: Eye_L_BlendBase
+  - first:
+      43: 4300030
+    second: Eye_L_Side1
+  - first:
+      43: 4300032
+    second: Eye_L_Side2
+  - first:
+      43: 4300034
+    second: Eye_L_UpperEyelid
+  - first:
+      43: 4300036
+    second: Eye_L_EyelidSegment_00
+  - first:
+      43: 4300038
+    second: Eye_L_EyelidSegment_07
+  - first:
+      43: 4300040
+    second: Eye_L_LowerEyelid
+  - first:
+      43: 4300042
+    second: Eye_L_EyelidSegment_15
+  - first:
+      43: 4300044
+    second: Eye_L_EyelidSegment_08
+  - first:
+      43: 4300046
+    second: Eye_L_EyelidSegment_02
+  - first:
+      43: 4300048
+    second: Eye_L_EyelidSegment_01
+  - first:
+      43: 4300050
+    second: Eye_L_EyelidSegment_03
+  - first:
+      43: 4300052
+    second: Eye_L_EyelidSegment_04
+  - first:
+      43: 4300054
+    second: Eye_L_EyelidSegment_05
+  - first:
+      43: 4300056
+    second: Eye_L_EyelidSegment_06
+  - first:
+      43: 4300058
+    second: Eye_L_EyelidSegment_14
+  - first:
+      43: 4300060
+    second: Eye_L_EyelidSegment_13
+  - first:
+      43: 4300062
+    second: Eye_L_EyelidSegment_12
+  - first:
+      43: 4300064
+    second: Eye_L_EyelidSegment_11
+  - first:
+      43: 4300066
+    second: Eye_L_EyelidSegment_10
+  - first:
+      43: 4300068
+    second: Eye_L_EyelidSegment_09
+  - first:
+      43: 4300070
+    second: Eye_R_Sclera
+  - first:
+      43: 4300072
+    second: Eye_R_Lens
+  - first:
+      43: 4300074
+    second: Eye_R_Blend_00
+  - first:
+      43: 4300076
+    second: Eye_R_BlendScrew_00
+  - first:
+      43: 4300078
+    second: Eye_R_Blend_05
+  - first:
+      43: 4300080
+    second: Eye_R_BlendScrew_05
+  - first:
+      43: 4300082
+    second: Eye_R_Blend_04
+  - first:
+      43: 4300084
+    second: Eye_R_BlendScrew_04
+  - first:
+      43: 4300086
+    second: Eye_R_Blend_03
+  - first:
+      43: 4300088
+    second: Eye_R_BlendScrew_03
+  - first:
+      43: 4300090
+    second: Eye_R_Blend_02
+  - first:
+      43: 4300092
+    second: Eye_R_BlendScrew_01
+  - first:
+      43: 4300094
+    second: Eye_R_Blend_01
+  - first:
+      43: 4300096
+    second: Eye_R_BlendScrew_02
+  - first:
+      43: 4300098
+    second: Eye_R_BlendBase
+  - first:
+      43: 4300100
+    second: Eye_R_Side1
+  - first:
+      43: 4300102
+    second: Eye_R_Side2
+  - first:
+      43: 4300104
+    second: Eye_R_UpperEyelid
+  - first:
+      43: 4300106
+    second: Eye_R_EyelidSegment_00
+  - first:
+      43: 4300108
+    second: Eye_R_EyelidSegment_07
+  - first:
+      43: 4300110
+    second: Eye_R_LowerEyelid
+  - first:
+      43: 4300112
+    second: Eye_R_EyelidSegment_15
+  - first:
+      43: 4300114
+    second: Eye_R_EyelidSegment_08
+  - first:
+      43: 4300116
+    second: Eye_R_EyelidSegment_03
+  - first:
+      43: 4300118
+    second: Eye_R_EyelidSegment_02
+  - first:
+      43: 4300120
+    second: Eye_R_EyelidSegment_01
+  - first:
+      43: 4300122
+    second: Eye_R_EyelidSegment_04
+  - first:
+      43: 4300124
+    second: Eye_R_EyelidSegment_05
+  - first:
+      43: 4300126
+    second: Eye_R_EyelidSegment_06
+  - first:
+      43: 4300128
+    second: Eye_R_EyelidSegment_09
+  - first:
+      43: 4300130
+    second: Eye_R_EyelidSegment_10
+  - first:
+      43: 4300132
+    second: Eye_R_EyelidSegment_11
+  - first:
+      43: 4300134
+    second: Eye_R_EyelidSegment_12
+  - first:
+      43: 4300136
+    second: Eye_R_EyelidSegment_13
+  - first:
+      43: 4300138
+    second: Eye_R_EyelidSegment_14
+  - first:
+      43: 4300140
+    second: mesh_Adam_mask
+  - first:
+      43: 4300142
+    second: Adam_monitor_back
+  - first:
+      43: 4300144
+    second: Adam_BloodyHeadBracket
+  - first:
+      43: 4300146
+    second: Rig_Trapezius_L_Base
+  - first:
+      43: 4300148
+    second: Rig_Trapezius_L_Rail
+  - first:
+      43: 4300150
+    second: Rig_Trapezius_L_Slider
+  - first:
+      43: 4300152
+    second: Rig_Trapezius_R_Base
+  - first:
+      43: 4300154
+    second: Rig_Trapezius_R_Rail
+  - first:
+      43: 4300156
+    second: Rig_Trapezius_L_Slider002
+  - first:
+      43: 4300158
+    second: Adam_monitor_front
+  - first:
+      43: 4300160
+    second: RootMotion
+  - first:
+      43: 4300162
+    second: mesh_Adam_torso
+  - first:
+      43: 4300164
+    second: mesh_Adam_legs
+  - first:
+      43: 4300166
+    second: mesh_Adam_head
+  - first:
+      43: 4300168
+    second: mesh_Adam_arms
+  - first:
+      43: 4300170
+    second: mesh_Adam_RSleeve
+  - first:
+      43: 4300172
+    second: mesh_Adam_LSleeve
+  - first:
+      43: 4300174
+    second: mesh_Adam_spine
+  - first:
+      43: 4300176
+    second: cables
+  - first:
+      74: 7400000
+    second: Adam_Walk
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: cables
+  - first:
+      137: 13700002
+    second: mesh_Adam_arms
+  - first:
+      137: 13700004
+    second: mesh_Adam_head
+  - first:
+      137: 13700006
+    second: mesh_Adam_legs
+  - first:
+      137: 13700008
+    second: mesh_Adam_LSleeve
+  - first:
+      137: 13700010
+    second: mesh_Adam_RSleeve
+  - first:
+      137: 13700012
+    second: mesh_Adam_spine
+  - first:
+      137: 13700014
+    second: mesh_Adam_torso
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -869,7 +2517,7 @@ ModelImporter:
       name: adam_monitors
     second: {fileID: 2100000, guid: 371d27e98fd444d4c9de7b8acb1fe669, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -901,6 +2549,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Adam_Walk
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 87
       wrapMode: 0
@@ -935,45 +2584,45 @@ ModelImporter:
         weight: 1
       - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf
         weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L
-          Foot
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01
+          L Foot
         weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L
-          Foot/Bip01 L Toe0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01
+          L Foot/Bip01 L Toe0
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L
-          Foot/Bip01 L Toe1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01
+          L Foot/Bip01 L Toe1
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L
-          Foot/Bip01 L Toe2
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01
+          L Foot/Bip01 L Toe2
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L
-          Foot/Bip01 L Toe3
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01
+          L Foot/Bip01 L Toe3
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L
-          Foot/Bip01 L Toe4
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01
+          L Foot/Bip01 L Toe4
         weight: 1
       - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh
         weight: 1
       - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf
         weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R
-          Foot
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01
+          R Foot
         weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R
-          Foot/Bip01 R Toe0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01
+          R Foot/Bip01 R Toe0
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R
-          Foot/Bip01 R Toe1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01
+          R Foot/Bip01 R Toe1
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R
-          Foot/Bip01 R Toe2
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01
+          R Foot/Bip01 R Toe2
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R
-          Foot/Bip01 R Toe3
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01
+          R Foot/Bip01 R Toe3
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R
-          Foot/Bip01 R Toe4
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01
+          R Foot/Bip01 R Toe4
         weight: 1
       - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine
         weight: 1
@@ -989,99 +2638,106 @@ ModelImporter:
         weight: 1
       - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Adam_monitor_front
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L ForeTwist
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L ForeTwist/Bip01 L ForeTwist1
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L ForeTwist/Bip01 L ForeTwist1/Bip01 L
-          ForeTwist2
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger0
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger0/Bip01 L Finger01
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger0/Bip01 L Finger01/Bip01
-          L Finger02
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger1
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger1/Bip01 L Finger11
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger1/Bip01 L Finger11/Bip01
-          L Finger12
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger2
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger2/Bip01 L Finger21
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger2/Bip01 L Finger21/Bip01
-          L Finger22
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger3
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger3/Bip01 L Finger31
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger3/Bip01 L Finger31/Bip01
-          L Finger32
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger4
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger4/Bip01 L Finger41
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger4/Bip01 L Finger41/Bip01
-          L Finger42
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Rig_L Forearm_01
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Bip01 L Forearm/Rig_L Forearm_02
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Rig_L Shoulder
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Rig_L Shoulder/Rig_L UpperArm_Ring
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Bip01
-          L UpperArm/Rig_L Shoulder/Rig_L UpperArm_Ring/Rig_L Clavicle_Constraint
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Rig_L
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
           Clavicle
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L ForeTwist
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Rig_L
-          UpperArm_Upnode
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L ForeTwist/Bip01 L ForeTwist1
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L Clavicle/Rig_L_Scapula_LookAt1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L ForeTwist/Bip01 L ForeTwist1/Bip01
+          L ForeTwist2
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger0
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger0/Bip01
+          L Finger01
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger0/Bip01
+          L Finger01/Bip01 L Finger02
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger1
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger1/Bip01
+          L Finger11
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger1/Bip01
+          L Finger11/Bip01 L Finger12
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger2
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger2/Bip01
+          L Finger21
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger2/Bip01
+          L Finger21/Bip01 L Finger22
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger3
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger3/Bip01
+          L Finger31
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger3/Bip01
+          L Finger31/Bip01 L Finger32
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger4
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger4/Bip01
+          L Finger41
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger4/Bip01
+          L Finger41/Bip01 L Finger42
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Rig_L Forearm_01
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Rig_L Forearm_02
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Rig_L Shoulder
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Rig_L Shoulder/Rig_L UpperArm_Ring
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Bip01 L UpperArm/Rig_L Shoulder/Rig_L UpperArm_Ring/Rig_L Clavicle_Constraint
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Rig_L Clavicle
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Rig_L UpperArm_Upnode
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 L
+          Clavicle/Rig_L_Scapula_LookAt1
         weight: 0
       - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Neck
         weight: 1
@@ -1436,99 +3092,106 @@ ModelImporter:
       - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Neck/Bip01
           Neck1/Bip01 Neck2/Bip01 Head/mesh_Adam_mask
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R ForeTwist
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R ForeTwist/Bip01 R ForeTwist1
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R ForeTwist/Bip01 R ForeTwist1/Bip01 R
-          ForeTwist2
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger0
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01/Bip01
-          R Finger02
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger1
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11/Bip01
-          R Finger12
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger2
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21/Bip01
-          R Finger22
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger3
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31/Bip01
-          R Finger32
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger4
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41/Bip01
-          R Finger42
-        weight: 1
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Rig_R Forearm_01
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Bip01 R Forearm/Rig_R Forearm_02
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Rig_R Shoulder
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Rig_R Shoulder/Rig_R UpperArm_Ring
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Bip01
-          R UpperArm/Rig_R Shoulder/Rig_R UpperArm_Ring/Rig_R Clavicle_Constraint
-        weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Rig_R
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
           Clavicle
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R ForeTwist
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Rig_R
-          UpperArm_Upnode
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R ForeTwist/Bip01 R ForeTwist1
         weight: 0
-      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R Clavicle/Rig_R_Scapula_LookAt1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R ForeTwist/Bip01 R ForeTwist1/Bip01
+          R ForeTwist2
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger0
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger0/Bip01
+          R Finger01
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger0/Bip01
+          R Finger01/Bip01 R Finger02
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger1
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger1/Bip01
+          R Finger11
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger1/Bip01
+          R Finger11/Bip01 R Finger12
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger2
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger2/Bip01
+          R Finger21
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger2/Bip01
+          R Finger21/Bip01 R Finger22
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger3
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger3/Bip01
+          R Finger31
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger3/Bip01
+          R Finger31/Bip01 R Finger32
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger4
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger4/Bip01
+          R Finger41
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger4/Bip01
+          R Finger41/Bip01 R Finger42
+        weight: 1
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Rig_R Forearm_01
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Rig_R Forearm_02
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Rig_R Shoulder
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Rig_R Shoulder/Rig_R UpperArm_Ring
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Bip01 R UpperArm/Rig_R Shoulder/Rig_R UpperArm_Ring/Rig_R Clavicle_Constraint
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Rig_R Clavicle
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Rig_R UpperArm_Upnode
+        weight: 0
+      - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 R
+          Clavicle/Rig_R_Scapula_LookAt1
         weight: 0
       - path: Adam_Reference/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bone005
         weight: 0
@@ -1692,25 +3355,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -1719,10 +3389,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 1
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Bip01
       humanName: Hips
@@ -2462,8 +4132,7 @@ ModelImporter:
     - name: Adam_BloodyHeadBracket
       parentName: 
       position: {x: -0.00000015258789, y: 0.000000009536743, z: 0.00000015258789}
-      rotation: {x: 0.00000052054855, y: 0.00000007549788, z: -0.000000048428806,
-        w: 1}
+      rotation: {x: 0.00000052054855, y: 0.00000007549788, z: -0.000000048428806, w: 1}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Adam_monitor_back
       parentName: 
@@ -2633,8 +4302,7 @@ ModelImporter:
     - name: Eye_L_BlendScrew_00
       parentName: 
       position: {x: -0, y: 0, z: -0.000068378446}
-      rotation: {x: 0.00000005960466, y: 0.000000088409365, z: -0.00000008739881,
-        w: 1}
+      rotation: {x: 0.00000005960466, y: 0.000000088409365, z: -0.00000008739881, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_L_Blend_Null_01
       parentName: 
@@ -2649,8 +4317,7 @@ ModelImporter:
     - name: Eye_L_BlendScrew_02
       parentName: 
       position: {x: -0, y: 0, z: -0.000068359375}
-      rotation: {x: 0.00000016306876, y: -0.000000043481155, z: -0.0000001937151,
-        w: 1}
+      rotation: {x: 0.00000016306876, y: -0.000000043481155, z: -0.0000001937151, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_L_Blend_Null_02
       parentName: 
@@ -2665,8 +4332,7 @@ ModelImporter:
     - name: Eye_L_BlendScrew_01
       parentName: 
       position: {x: -0, y: 0, z: -0.0000683403}
-      rotation: {x: 0.00000004403409, y: -0.00000004417961, z: -0.000000044703476,
-        w: 1}
+      rotation: {x: 0.00000004403409, y: -0.00000004417961, z: -0.000000044703476, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_L_Blend_Null_03
       parentName: 
@@ -2681,8 +4347,7 @@ ModelImporter:
     - name: Eye_L_BlendScrew_03
       parentName: 
       position: {x: 0.0000000023841857, y: 0, z: -0.000068359375}
-      rotation: {x: 0.00000016292326, y: -0.000000044260684, z: -0.000000043684846,
-        w: 1}
+      rotation: {x: 0.00000016292326, y: -0.000000044260684, z: -0.000000043684846, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_L_Blend_Null_04
       parentName: 
@@ -2697,8 +4362,7 @@ ModelImporter:
     - name: Eye_L_BlendScrew_04
       parentName: 
       position: {x: -0, y: 0, z: -0.000068378446}
-      rotation: {x: 0.000000044034095, y: -0.000000043830376, z: -0.00000005960465,
-        w: 1}
+      rotation: {x: 0.000000044034095, y: -0.000000043830376, z: -0.00000005960465, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_L_Blend_Null_05
       parentName: 
@@ -2713,8 +4377,7 @@ ModelImporter:
     - name: Eye_L_BlendScrew_05
       parentName: 
       position: {x: 0.00000015258789, y: 0, z: -0.000068378446}
-      rotation: {x: 0.00000004359753, y: -0.000000043655756, z: -0.00000014901161,
-        w: 1}
+      rotation: {x: 0.00000004359753, y: -0.000000043655756, z: -0.00000014901161, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_L_BlendBase
       parentName: 
@@ -2914,8 +4577,7 @@ ModelImporter:
     - name: Eye_R_BlendScrew_00
       parentName: 
       position: {x: -0.0000000023841857, y: 0, z: -0.0000683403}
-      rotation: {x: 0.00000005948824, y: 0.00000008817354, z: -0.000000087442466,
-        w: 1}
+      rotation: {x: 0.00000005948824, y: 0.00000008817354, z: -0.000000087442466, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_R_Blend_Null_01
       parentName: 
@@ -2930,8 +4592,7 @@ ModelImporter:
     - name: Eye_R_BlendScrew_02
       parentName: 
       position: {x: -0.00000015258789, y: 0, z: -0.000068359375}
-      rotation: {x: 0.00000016400007, y: -0.000000043015493, z: -0.00000017881393,
-        w: 1}
+      rotation: {x: 0.00000016400007, y: -0.000000043015493, z: -0.00000017881393, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_R_Blend_Null_02
       parentName: 
@@ -2946,8 +4607,7 @@ ModelImporter:
     - name: Eye_R_BlendScrew_01
       parentName: 
       position: {x: -0.00000015258789, y: 0, z: -0.0000683403}
-      rotation: {x: 0.000000043888576, y: -0.000000043481126, z: -0.00000001490116,
-        w: 1}
+      rotation: {x: 0.000000043888576, y: -0.000000043481126, z: -0.00000001490116, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_R_Blend_Null_03
       parentName: 
@@ -2962,8 +4622,7 @@ ModelImporter:
     - name: Eye_R_BlendScrew_03
       parentName: 
       position: {x: 0.0000000023841857, y: 0, z: -0.000068359375}
-      rotation: {x: 0.00000016292326, y: -0.000000042915055, z: -0.000000043699394,
-        w: 1}
+      rotation: {x: 0.00000016292326, y: -0.000000042915055, z: -0.000000043699394, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_R_Blend_Null_04
       parentName: 
@@ -2978,8 +4637,7 @@ ModelImporter:
     - name: Eye_R_BlendScrew_04
       parentName: 
       position: {x: -0, y: 0.000000076293944, z: -0.0000683403}
-      rotation: {x: 0.000000044121403, y: -0.000000043015465, z: -0.000000074505806,
-        w: 1}
+      rotation: {x: 0.000000044121403, y: -0.000000043015465, z: -0.000000074505806, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_R_Blend_Null_05
       parentName: 
@@ -2994,8 +4652,7 @@ ModelImporter:
     - name: Eye_R_BlendScrew_05
       parentName: 
       position: {x: -0, y: 0, z: -0.0000683403}
-      rotation: {x: 0.000000044790788, y: -0.000000044121414, z: -0.00000016391277,
-        w: 1}
+      rotation: {x: 0.000000044790788, y: -0.000000044121414, z: -0.00000016391277, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye_R_BlendBase
       parentName: 
@@ -3035,8 +4692,7 @@ ModelImporter:
     - name: mesh_Adam_mask
       parentName: 
       position: {x: -0.00000015258789, y: -0.000000009536743, z: 0.00000015258789}
-      rotation: {x: 0.00000004371139, y: -0.000000043711385, z: -0.00000028684732,
-        w: 1}
+      rotation: {x: 0.00000004371139, y: -0.000000043711385, z: -0.00000028684732, w: 1}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Bip01 R Clavicle
       parentName: 
@@ -3181,8 +4837,7 @@ ModelImporter:
     - name: Rig_R UpperArm_Upnode
       parentName: 
       position: {x: -0.013181725, y: 0.00000047683716, z: 0.029206848}
-      rotation: {x: 0.000000014901163, y: 0.000000014901161, z: -0.000000020489097,
-        w: 1}
+      rotation: {x: 0.000000014901163, y: 0.000000014901161, z: -0.000000020489097, w: 1}
       scale: {x: 0.99999994, y: 0.99999994, z: 1}
     - name: Rig_R_Scapula_LookAt1
       parentName: 
@@ -3277,8 +4932,7 @@ ModelImporter:
     - name: Rig_Trapezius_L_Slider
       parentName: 
       position: {x: 0.000000038146972, y: -0.000000076293944, z: 0}
-      rotation: {x: 0.000000089406925, y: -0.00000010430812, z: -0.000000089406946,
-        w: 1}
+      rotation: {x: 0.000000089406925, y: -0.00000010430812, z: -0.000000089406946, w: 1}
       scale: {x: 1.0000001, y: 1.0000002, z: 1}
     - name: Rig_Trapezius_R_Base
       parentName: 
@@ -3293,8 +4947,7 @@ ModelImporter:
     - name: Rig_Trapezius_L_Slider002
       parentName: 
       position: {x: -0.000000114440915, y: 0.000000038146972, z: -0.00000015258789}
-      rotation: {x: 0.00000002235174, y: 0.000000029802326, z: -0.00000013783577,
-        w: 1}
+      rotation: {x: 0.00000002235174, y: 0.000000029802326, z: -0.00000013783577, w: 1}
       scale: {x: 0.9999999, y: 1.0000002, z: 0.9999998}
     - name: Bone006
       parentName: 
@@ -3578,14 +5231,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 1
     hasExtraRoot: 0
     skeletonHasParents: 0
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: f12f2d44b2688054986e54861cc211dc,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: f12f2d44b2688054986e54861cc211dc, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
