@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6426938288889461293}
   - component: {fileID: 7391735032840821725}
   - component: {fileID: 3656357261575558042}
-  - component: {fileID: 6610751228870368851}
+  - component: {fileID: 3057231643630072111}
   m_Layer: 0
   m_Name: beech_tree_06_LOD0
   m_TagString: Untagged
@@ -81,7 +81,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &6610751228870368851
+--- !u!136 &3057231643630072111
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,10 +91,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.59
+  m_Radius: 0.45
   m_Height: 24.057701
   m_Direction: 1
-  m_Center: {x: -0.32, y: 11.653055, z: -0.03}
+  m_Center: {x: -0.18, y: 11.653055, z: -0.22}
 --- !u!1 &2783166917596898679
 GameObject:
   m_ObjectHideFlags: 0
