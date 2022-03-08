@@ -54,6 +54,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -66,6 +68,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -78,6 +81,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7078907134251479745
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6081562986216898770}
   - component: {fileID: 6635372108582311446}
+  - component: {fileID: 7843100342532642561}
   m_Layer: 0
   m_Name: VS_prefab_beech_tree_01
   m_TagString: Untagged
@@ -139,6 +144,31 @@ LODGroup:
     renderers:
     - renderer: {fileID: 6321489549929681998}
   m_Enabled: 1
+--- !u!114 &7843100342532642561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7078907134251479745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f500f5ef081dec548b5e12f1809fd242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindSpeed: 30
+  Turbulence: 0.25
+  NoiseTexture: {fileID: 2800000, guid: eb58c36f965ff024cb94d9bba46e33e7, type: 3}
+  FlexNoiseWorldSize: 175
+  ShiverNoiseWorldSize: 10
+  GustMaskTexture: {fileID: 2800000, guid: adabe9ddbe5480a4191c8823f4785a22, type: 3}
+  GustWorldSize: 600
+  GustSpeed: 50
+  GustScale: 1
+  point1: {fileID: 0}
+  point2: {fileID: 0}
+  point3: {fileID: 0}
+  point4: {fileID: 0}
 --- !u!1 &7590580875848450626
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,6 +223,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -205,6 +237,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -217,6 +250,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7683460461932659776
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,6 +306,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -284,6 +320,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -296,6 +333,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &4846686975992879102
 CapsuleCollider:
   m_ObjectHideFlags: 0
